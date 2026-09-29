@@ -35,32 +35,48 @@ TEAL, INK, SURFACE = (14, 124, 134), (26, 26, 26), (255, 254, 250)
 # recording: airplane mode is on and the transcription happens on the device.
 HOOKS = {
     "en_wind_a": "Airplane mode on.\nIt still transcribes.",
-    "en_wind_b": "Your recording → text.\nNothing leaves your phone.",
-    "en_wind_c": "Speech to text, offline.\nNo account. No upload.",
+    "en_wind_b": "Your recording → text.\nThe audio stays on your phone.",
+    "en_wind_c": "Speech to text, offline.\nNo account needed.",
     "fr_verne": "Mode avion activé.\nEt ça transcrit quand même.",
     "es_flamencos_a": "Modo avión activado.\nY transcribe igual.",
     "es_flamencos_b": "De audio a texto,\nsin internet.",
     "pt_azevedo": "Modo avião ligado.\nE transcreve mesmo assim.",
 }
-L10N = {  # done line, end-card line, caption body, hashtags
-    "en": ("Transcribed 100% on the phone", "Free on Google Play",
-           "Airplane mode on ✈️ and it still turns speech into text. Speech to Text Offline runs 100% "
-           "on your phone: no internet, no account, nothing uploaded. 99 languages.",
-           "#speechtotext #transcription #offline #privacy #studytips #productivity #notes #android"),
-    "fr": ("Transcrit à 100 % sur le téléphone", "Gratuit sur Google Play",
-           "Mode avion activé ✈️ et la parole devient quand même du texte. Speech to Text Offline "
-           "fonctionne à 100 % sur votre téléphone : sans internet, sans compte, rien n'est envoyé. 99 langues.",
-           "#transcription #reconnaissancevocale #horsligne #vieprivée #étudiant #productivité #android"),
-    "es": ("Transcrito 100% en el teléfono", "Gratis en Google Play",
-           "Modo avión activado ✈️ y aun así convierte la voz en texto. Speech to Text Offline funciona "
-           "100% en tu teléfono: sin internet, sin cuenta, sin subir nada. 99 idiomas.",
-           "#vozatexto #transcripcion #sininternet #privacidad #estudiantes #productividad #android"),
-    "pt": ("Transcrito 100% no celular", "Grátis no Google Play",
-           "Modo avião ligado ✈️ e mesmo assim transforma voz em texto. O Speech to Text Offline funciona "
-           "100% no seu celular: sem internet, sem conta, nada é enviado. 99 idiomas.",
-           "#vozparatexto #transcricao #offline #privacidade #estudos #produtividade #android"),
+L10N = {  # on-video "done" line, end-card line
+    "en": ("Transcribed 100% on the phone", "Free on Google Play"),
+    "fr": ("Transcrit à 100 % sur le téléphone", "Gratuit sur Google Play"),
+    "es": ("Transcrito 100% en el teléfono", "Gratis en Google Play"),
+    "pt": ("Transcrito 100% no celular", "Grátis no Google Play"),
 }
 CREDIT = "Audio: LibriVox (public domain)"
+
+CAPTIONS = {
+    "en_wind_a": ("The Wind and the Sun argue about who is stronger 🌬️☀️ Transcribed with airplane mode on ✈️. "
+                  "Speech to Text Offline turns speech into text right on your phone, and your audio never leaves it. "
+                  "Works offline in dozens of languages.",
+                  "#speechtotext #aesop #fables #offline #privacy #transcription #android"),
+    "en_wind_b": ("The harder the wind blew, the tighter he held his cloak 🧥 This text was written by the phone itself, "
+                  "in airplane mode. No account, and your audio never leaves your device.",
+                  "#speechtotext #aesop #storytime #offline #privacy #notes #android"),
+    "en_wind_c": ("And the sun wins ☀️ Aesop's ending, transcribed with no internet at all. Lectures, meetings, voice "
+                  "notes: Speech to Text Offline writes them down on your phone, and the audio stays there.",
+                  "#speechtotext #studytips #lecturenotes #offline #productivity #transcription #android"),
+    "es_flamencos_a": ("Los peces aplaudían con la cola 🐟👏 Quiroga, transcrito en modo avión ✈️. Speech to Text Offline "
+                       "convierte la voz en texto en tu propio teléfono: tu audio nunca sale de él. Funciona sin conexión "
+                       "en decenas de idiomas.",
+                       "#vozatexto #quiroga #cuentos #sininternet #privacidad #transcripcion #android"),
+    "es_flamencos_b": ("¿Por qué los flamencos tenían las patas blancas? 🦩 Un clásico de Quiroga, pasado a texto sin "
+                       "internet. Notas de voz, clases, reuniones: se transcriben en tu teléfono y el audio se queda ahí.",
+                       "#vozatexto #flamencos #estudiantes #sininternet #productividad #notas #android"),
+    "fr_verne": ("« En l'année 1872… » 📖 Le début du Tour du monde en 80 jours, transcrit en mode avion ✈️. "
+                 "Speech to Text Offline transforme la parole en texte directement sur votre téléphone : votre audio "
+                 "ne le quitte jamais. Fonctionne hors ligne dans des dizaines de langues.",
+                 "#transcription #julesverne #livreaudio #horsligne #vieprivée #étudiant #android"),
+    "pt_azevedo": ("Um passageiro de 25 anos deixa o camarote… 🚢 Conto de Aluísio Azevedo, transcrito em modo avião ✈️. "
+                   "O Speech to Text Offline transforma voz em texto no seu próprio celular: seu áudio nunca sai dele. "
+                   "Funciona offline em dezenas de idiomas.",
+                   "#vozparatexto #literaturabrasileira #contos #offline #privacidade #estudos #android"),
+}
 
 
 def font(size, bold=True):
@@ -166,7 +182,7 @@ def compose(cid, capture, month, idx, tmp):
     hold = min(4.5, max(2.0, rec_len - t_text - 0.2))
     B = max(D, 7.0)                      # text lands as the speech ends (min 7 s so the wait reads)
     speed = (t_text - t_open) / B        # >1 = compressed
-    done_line, end_line, _, _ = L10N[lang]
+    done_line, end_line = L10N[lang]
     hook_png(HOOKS[cid], tmp / "hook.png"); done_png(done_line, tmp / "done.png"); end_png(end_line, tmp / "end.png")
     total = B + hold + 3.0
     out = HERE / "clips" / month / f"{idx:02d}_{cid}.mp4"
@@ -196,8 +212,8 @@ def compose(cid, capture, month, idx, tmp):
 
 
 def caption(cid, month):
-    lang = cid.split("_")[0]
-    _, end_line, body, tags = L10N[lang]
+    end_line = L10N[cid.split("_")[0]][1]
+    body, tags = CAPTIONS[cid]
     return f"{body}\n\n{end_line}: {PLAY.format(month=month)}\n\n{tags}"
 
 
