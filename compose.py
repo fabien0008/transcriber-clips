@@ -42,11 +42,11 @@ HOOKS = {
     "es_flamencos_b": "De audio a texto,\nsin internet.",
     "pt_azevedo": "Modo avião ligado.\nE transcreve mesmo assim.",
 }
-L10N = {  # on-video "done" line, end-card line
-    "en": ("Transcribed 100% on the phone", "Free on Google Play"),
-    "fr": ("Transcrit à 100 % sur le téléphone", "Gratuit sur Google Play"),
-    "es": ("Transcrito 100% en el teléfono", "Gratis en Google Play"),
-    "pt": ("Transcrito 100% no celular", "Grátis no Google Play"),
+L10N = {  # on-video "done" line, end-card line, link-in-bio line
+    "en": ("Transcribed 100% on the phone", "Free on Google Play", "Link in bio"),
+    "fr": ("Transcrit à 100 % sur le téléphone", "Gratuit sur Google Play", "Lien dans la bio"),
+    "es": ("Transcrito 100% en el teléfono", "Gratis en Google Play", "Enlace en la bio"),
+    "pt": ("Transcrito 100% no celular", "Grátis no Google Play", "Link na bio"),
 }
 CREDIT = "Audio: LibriVox (public domain)"
 
@@ -141,14 +141,25 @@ def done_png(text, path):
     img.save(path)
 
 
-def end_png(line, path):
+def end_png(line, bio, path):
+    """One centred block, all inside the safe zone. TikTok/Instagram cover the bottom ~20% and the
+    right edge with their own buttons, so the first version's credit at y=1560 would have been
+    hidden. Caption links can't be tapped there either, hence "Link in bio" (the BasikCode bio
+    page lists this app)."""
     img = Image.new("RGB", (W, H), SURFACE)
     d = ImageDraw.Draw(img)
-    icon = Image.open(ICON).convert("RGBA").resize((380, 380))
-    img.paste(icon, ((W - 380) // 2, 520), icon)
-    y = text_block(d, "Speech to Text Offline", font(72), 980, INK)
-    y = text_block(d, line, font(56, bold=False), y + 30, TEAL)
-    text_block(d, CREDIT, font(30, bold=False), 1560, (110, 110, 110))
+    icon = Image.open(ICON).convert("RGBA").resize((340, 340))
+    img.paste(icon, ((W - 340) // 2, 470), icon)
+    size = 70
+    while d.textlength("Speech to Text Offline", font=font(size)) > W - 2 * 150:
+        size -= 2   # keep clear of the right edge, where TikTok puts its buttons
+    y = text_block(d, "Speech to Text Offline", font(size), 870, INK)
+    y = text_block(d, line, font(54, bold=False), y + 16, TEAL)
+    f = font(46)
+    tw = d.textlength(bio, font=f)
+    d.rounded_rectangle(((W - tw) / 2 - 44, y + 36, (W + tw) / 2 + 44, y + 36 + 92), radius=46, fill=TEAL)
+    d.text(((W - tw) / 2, y + 56), bio, font=f, fill=(255, 255, 255))
+    text_block(d, CREDIT, font(30, bold=False), y + 190, (110, 110, 110))
     img.save(path)
 
 
@@ -192,8 +203,8 @@ def compose(cid, capture, month, idx, tmp):
     hold = min(4.5, max(2.0, rec_len - t_text - 0.2))
     B = max(D, 7.0)                      # text lands as the speech ends (min 7 s so the wait reads)
     speed = (t_text - t_open) / B        # >1 = compressed
-    done_line, end_line = L10N[lang]
-    hook_png(HOOKS[cid], tmp / "hook.png"); done_png(done_line, tmp / "done.png"); end_png(end_line, tmp / "end.png")
+    done_line, end_line, bio_line = L10N[lang]
+    hook_png(HOOKS[cid], tmp / "hook.png"); done_png(done_line, tmp / "done.png"); end_png(end_line, bio_line, tmp / "end.png")
     total = B + hold + 3.0
     out = HERE / "clips" / month / f"{idx:02d}_{cid}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
