@@ -50,31 +50,41 @@ L10N = {  # on-video "done" line, end-card line
 }
 CREDIT = "Audio: LibriVox (public domain)"
 
+# Caption = TITLE line + body. basikcode-social's youtube.py uses the first line as the YouTube
+# title (+ " #shorts", cut at ~90 chars), and TikTok/Instagram show it first too — so it must be a
+# short, complete, searchable line: the key phrase plus this clip's hook. The body must not repeat it.
+# Honesty rules (Fabien-approved, 2026-09-29): only the AUDIO never leaves the phone (the app does
+# send analytics, crash reports and ad requests); "dozens of languages", never "99"; one distinct
+# caption per clip, opening on what is said in it.
 CAPTIONS = {
-    "en_wind_a": ("The Wind and the Sun argue about who is stronger 🌬️☀️ Transcribed with airplane mode on ✈️. "
-                  "Speech to Text Offline turns speech into text right on your phone, and your audio never leaves it. "
-                  "Works offline in dozens of languages.",
+    "en_wind_a": ("Speech to text in airplane mode ✈️ The Wind and the Sun",
+                  "They argue about who is stronger 🌬️☀️ Speech to Text Offline turns speech into text right on "
+                  "your phone, and your audio never leaves it. Works offline in dozens of languages.",
                   "#speechtotext #aesop #fables #offline #privacy #transcription #android"),
-    "en_wind_b": ("The harder the wind blew, the tighter he held his cloak 🧥 This text was written by the phone itself, "
+    "en_wind_b": ("Offline speech to text: the wind, the traveler and his cloak 🧥",
+                  "The harder the wind blew, the tighter he held on. This text was written by the phone itself, "
                   "in airplane mode. No account, and your audio never leaves your device.",
                   "#speechtotext #aesop #storytime #offline #privacy #notes #android"),
-    "en_wind_c": ("And the sun wins ☀️ Aesop's ending, transcribed with no internet at all. Lectures, meetings, voice "
-                  "notes: Speech to Text Offline writes them down on your phone, and the audio stays there.",
+    "en_wind_c": ("Aesop's ending, transcribed with no internet ☀️",
+                  "And the sun wins. Lectures, meetings, voice notes: Speech to Text Offline writes them down on "
+                  "your phone, and the audio stays there.",
                   "#speechtotext #studytips #lecturenotes #offline #productivity #transcription #android"),
-    "es_flamencos_a": ("Los peces aplaudían con la cola 🐟👏 Quiroga, transcrito en modo avión ✈️. Speech to Text Offline "
-                       "convierte la voz en texto en tu propio teléfono: tu audio nunca sale de él. Funciona sin conexión "
-                       "en decenas de idiomas.",
+    "es_flamencos_a": ("Voz a texto en modo avión ✈️ Los peces aplaudían con la cola 🐟",
+                       "Un cuento de Quiroga, transcrito sin internet. Speech to Text Offline convierte la voz en "
+                       "texto en tu propio teléfono: tu audio nunca sale de él. Funciona sin conexión en decenas de idiomas.",
                        "#vozatexto #quiroga #cuentos #sininternet #privacidad #transcripcion #android"),
-    "es_flamencos_b": ("¿Por qué los flamencos tenían las patas blancas? 🦩 Un clásico de Quiroga, pasado a texto sin "
-                       "internet. Notas de voz, clases, reuniones: se transcriben en tu teléfono y el audio se queda ahí.",
+    "es_flamencos_b": ("¿Por qué los flamencos tenían las patas blancas? 🦩 Voz a texto sin internet",
+                       "Un clásico de Quiroga, pasado a texto en modo avión ✈️. Notas de voz, clases, reuniones: se "
+                       "transcriben en tu teléfono y el audio se queda ahí.",
                        "#vozatexto #flamencos #estudiantes #sininternet #productividad #notas #android"),
-    "fr_verne": ("« En l'année 1872… » 📖 Le début du Tour du monde en 80 jours, transcrit en mode avion ✈️. "
-                 "Speech to Text Offline transforme la parole en texte directement sur votre téléphone : votre audio "
-                 "ne le quitte jamais. Fonctionne hors ligne dans des dizaines de langues.",
+    "fr_verne": ("Transcription en mode avion ✈️ « En l'année 1872… » (Jules Verne)",
+                 "Le début du Tour du monde en 80 jours 📖 Speech to Text Offline transforme la parole en texte "
+                 "directement sur votre téléphone : votre audio ne le quitte jamais. Fonctionne hors ligne dans "
+                 "des dizaines de langues.",
                  "#transcription #julesverne #livreaudio #horsligne #vieprivée #étudiant #android"),
-    "pt_azevedo": ("Um passageiro de 25 anos deixa o camarote… 🚢 Conto de Aluísio Azevedo, transcrito em modo avião ✈️. "
-                   "O Speech to Text Offline transforma voz em texto no seu próprio celular: seu áudio nunca sai dele. "
-                   "Funciona offline em dezenas de idiomas.",
+    "pt_azevedo": ("Voz para texto em modo avião ✈️ Um conto de Aluísio Azevedo 🚢",
+                   "Um passageiro de 25 anos deixa o camarote… O Speech to Text Offline transforma voz em texto no "
+                   "seu próprio celular: seu áudio nunca sai dele. Funciona offline em dezenas de idiomas.",
                    "#vozparatexto #literaturabrasileira #contos #offline #privacidade #estudos #android"),
 }
 
@@ -213,8 +223,9 @@ def compose(cid, capture, month, idx, tmp):
 
 def caption(cid, month):
     end_line = L10N[cid.split("_")[0]][1]
-    body, tags = CAPTIONS[cid]
-    return f"{body}\n\n{end_line}: {PLAY.format(month=month)}\n\n{tags}"
+    title, body, tags = CAPTIONS[cid]
+    assert len(title) <= 80 and "\n" not in title, (cid, len(title))  # YouTube title = title + " #shorts"
+    return f"{title}\n{body}\n\n{end_line}: {PLAY.format(month=month)}\n\n{tags}"
 
 
 def main():
@@ -222,6 +233,7 @@ def main():
     ap.add_argument("--capture", required=True, type=Path)
     ap.add_argument("--month", required=True)
     ap.add_argument("--only")
+    ap.add_argument("--manifest-only", action="store_true", help="rewrite captions; keep the rendered clips")
     a = ap.parse_args()
     # Interleave languages so consecutive posts differ.
     order = ["en_wind_a", "es_flamencos_a", "fr_verne", "en_wind_b", "pt_azevedo", "es_flamencos_b", "en_wind_c"]
@@ -230,8 +242,12 @@ def main():
     for i, cid in enumerate(order, 1):
         if a.only and cid != a.only:
             continue
-        out, info = compose(cid, a.capture, a.month, i, tmp)
-        print(f"{out.name}: {info}", flush=True)
+        if a.manifest_only:
+            out = HERE / "clips" / a.month / f"{i:02d}_{cid}.mp4"
+            assert out.exists(), out
+        else:
+            out, info = compose(cid, a.capture, a.month, i, tmp)
+            print(f"{out.name}: {info}", flush=True)
         rows.append({"Date": f"{a.month}-{i:02d}", "Time": "18:00:00", "Text": caption(cid, a.month),
                      "Picture Url 1": f"{BASE_URL}/clips/{a.month}/{out.name}"})
     if not a.only:
