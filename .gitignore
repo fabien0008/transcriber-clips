@@ -1,0 +1,5 @@
+src_audio/
+seg/
+.tmp/
+scan_*.txt
+__pycache__/
