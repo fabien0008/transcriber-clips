@@ -51,7 +51,7 @@ L10N = {  # on-video "done" line, end-card line, link-in-bio line
 CREDIT = "Audio: LibriVox (public domain)"
 
 # Caption = TITLE line + body. basikcode-social's youtube.py uses the first line as the YouTube
-# title (+ " #shorts", cut at ~90 chars), and TikTok/Instagram show it first too — so it must be a
+# title (+ " #shorts", cut at ~90 chars), and TikTok shows it first too — so it must be a
 # short, complete, searchable line: the key phrase plus this clip's hook. The body must not repeat it.
 # Honesty rules (Fabien-approved, 2026-09-29): only the AUDIO never leaves the phone (the app does
 # send analytics, crash reports and ad requests); "dozens of languages", never "99"; one distinct
@@ -142,7 +142,7 @@ def done_png(text, path):
 
 
 def end_png(line, bio, path):
-    """One centred block, all inside the safe zone. TikTok/Instagram cover the bottom ~20% and the
+    """One centred block, all inside the safe zone. TikTok/YouTube Shorts cover the bottom ~20% and the
     right edge with their own buttons, so the first version's credit at y=1560 would have been
     hidden. Caption links can't be tapped there either, hence "Link in bio" (the BasikCode bio
     page lists this app)."""

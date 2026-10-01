@@ -1,0 +1,722 @@
+[
+ {
+  "id": "1839",
+  "file": "src_audio/fleurs/hi_in/test/7251883826251297781.wav",
+  "dur": 9.4,
+  "lang": "hi",
+  "cer": 1.446,
+  "ref": "स्कीइंग मार्ग को एक हाईकिंग (लंबी पैदल यात्रा) मार्ग जैसा ही सोचें।",
+  "hyp": "Ski Mar, Khoek, Hike, Lambi, Padalyatra, Mar, Jai Sahi, S Ski Mar, Khoek, Hike, Lambi Padalyatra, Mar, Jai Sahi"
+ },
+ {
+  "id": "1926",
+  "file": "src_audio/fleurs/hi_in/test/14585676639063535081.wav",
+  "dur": 6.7,
+  "lang": "hi",
+  "cer": 0.929,
+  "ref": "मनोविज्ञान सहित विज्ञान के सभी मामलों पर अरस्तू के विचारों को स्वीकार किया जाता है।",
+  "hyp": "Manu Vikyan Sahib, Vikyan Kesa, Vibhyaan, Kesa, Vibhyaan, Kesa, Vibhyaan, Kesa, V"
+ },
+ {
+  "id": "1859",
+  "file": "src_audio/fleurs/hi_in/test/13603726120458761913.wav",
+  "dur": 18.6,
+  "lang": "hi",
+  "cer": 1.105,
+  "ref": "मध्य युग के अंत में पश्चिमी यूरोप ने अपनी शैली विकसित करना शुरू कर दिया. धर्मयुद्ध के परिणामस्वरूप उस समय के सबसे बड़े विकास में से एक लोगों ने कपड़ों को बाँधने के लिए बटन का उपयोग करना शुरू किया",
+  "hyp": "Madhya Yuki Ant me pastim yurup na yapni shali vixit karna shuru karna yai dhar me yutke pand nam shuru puh samay ke sabse baadhe vikas me se ek nogu na kaaple ka baan dhne karne ye batan kaapya karna shuru karna shuru kya"
+ },
+ {
+  "id": "1661",
+  "file": "src_audio/fleurs/hi_in/test/4887139028898752213.wav",
+  "dur": 8.4,
+  "lang": "ur",
+  "cer": 0.82,
+  "ref": "यह कहते हुए कि वे चीन के आर्थिक उत्पादन के आधार पर बनाए जाएँगे, उन्होंने कटौती के लिए कोई आँकड़ा निर्धारित नहीं किया.",
+  "hyp": "یہ کہتے ہوئے کی بے چل کے آرتے کوتبادن کے آذر پر بنائے جائیں گے انہوں نے قتورتی کے لئے کو"
+ },
+ {
+  "id": "1881",
+  "file": "src_audio/fleurs/hi_in/test/2815903452265068889.wav",
+  "dur": 9.9,
+  "lang": "hi",
+  "cer": 1.01,
+  "ref": "असल में फील्ड ट्रिप साझा करना यात्रा पर विचार करने और भविष्य की कक्षाओं के साथ अनुभव करने का एक शानदार तरीका है.",
+  "hyp": "Asselmey Fiori Trips Ajayakarna Yatra Parvichar Karne & Bhabhi Shikki Kachwag Sath Anubhav Karney Ka 1 Shandar Tarika"
+ },
+ {
+  "id": "1774",
+  "file": "src_audio/fleurs/hi_in/test/579454037541708253.wav",
+  "dur": 18.2,
+  "lang": "hi",
+  "cer": 0.978,
+  "ref": "बाहरी द्वीपों पर क्रेडिट कार्ड शायद स्वीकार नहीं किए जाएँगे, हालाँकि ब्रिटिश और संयुक्त राज्य की मुद्रा स्वीकार्य होगी; यह निर्धारित करने के लिए कि स्वीकार्य भुगतान विधि क्या है, मालिकों से पहले ही पूछ लें।",
+  "hyp": "Bhari Dvipo per credit card shahit swikkar نہیں kiya jahayinke hala ki Pritish aur sahiyotraj ki mudra swikkari aur ghi. Ya naidharak karne kiya ki swikkari bhuktan vidhi kiya hai maalikos se pahle hi pooh shle."
+ },
+ {
+  "id": "1912",
+  "file": "src_audio/fleurs/hi_in/test/17513590083002413490.wav",
+  "dur": 9.5,
+  "lang": "hi",
+  "cer": 1.011,
+  "ref": "अधिकांश छोटे द्वीप स्वतंत्र राष्ट्र हैं, या फ़्रांस से संबंधित हैं और लग्ज़री बीच रिसॉर्ट के रूप में जाने जाते हैं.",
+  "hyp": "Adhikaans, Chote Vipas, Watanthra, Rajtra hai ya Frans, Sambandit hai, aur Luxli Beats resort ke Rupe mein jane jati hai."
+ },
+ {
+  "id": "1873",
+  "file": "src_audio/fleurs/hi_in/test/15964620684926881659.wav",
+  "dur": 12.2,
+  "lang": "hi",
+  "cer": 1.106,
+  "ref": "पुरुषों को दृढ़ता से नकारें और अपनी बात पर बेहिचक अड़ी रहें (सांस्कृतिक अंतरों के होने या नहीं होने से यह सही नहीं हो जाता!).",
+  "hyp": "Pursu ko dritata se nakari aur apni baat paar pehichak adi rahi saas kritik antar ke uphane ya nahi hunasi ye shahi nahi hojata"
+ },
+ {
+  "id": "1722",
+  "file": "src_audio/fleurs/hi_in/test/3624137600069882012.wav",
+  "dur": 13.1,
+  "lang": "hi",
+  "cer": 0.845,
+  "ref": "इस साल की शुरुआत में 53 साल के कुओमो ने अपना शासनकाल शुरू किया और पिछले महीने समलैंगिक विवाह को वैध बनाने वाले बिल पर हस्ताक्षर किए.",
+  "hyp": "ھaasan kaal sharoo kya aur pyjle mahi ne sam langik viva ko vaird manani kvali bil parha stakhshar kya."
+ },
+ {
+  "id": "1823",
+  "file": "src_audio/fleurs/hi_in/test/13918355105007022779.wav",
+  "dur": 13.7,
+  "lang": "hi",
+  "cer": 1.08,
+  "ref": "यातायात बहाव दो बिंदुओं के बीच व्यक्तिगत चालकों और वाहनों की गतिविधि और एक दूसरे के साथ की जाने वाली पारस्परिक क्रिया का अध्ययन है।",
+  "hyp": "yata yat bahag do binduom ke bheech vaktigat chalako aur vahano ki gati vidhi aur ek dhussre ke saat ki jane wadi paraas parik kriya ka adhyayan hai."
+ },
+ {
+  "id": "2002",
+  "file": "src_audio/fleurs/hi_in/test/2209942949403736703.wav",
+  "dur": 7.6,
+  "lang": "hi",
+  "cer": 1.068,
+  "ref": "यह डिवाइस को हवा में मूव करके खिलाड़ियों को एक्शन और मूवमेंट कंट्रोल करने की अनुमति देगा.",
+  "hyp": "dhiyat device ko hawa me mub kar ke hilario ko action or movement, control karne kyaanumati dega"
+ },
+ {
+  "id": "1971",
+  "file": "src_audio/fleurs/hi_in/test/9632791299638996282.wav",
+  "dur": 7.7,
+  "lang": "hi",
+  "cer": 0.962,
+  "ref": "तूफान और बवंडर की तरह आंधी, ओले, भारी बारिश, और जंगल की आग तीव्र मौसम का हिस्सा और असर हैं.",
+  "hyp": "Tufan & Bounder, kittar aandhi, ole, Bahari, Baharish & Jungle, ki aagati vrmaosam ka, hissa & sarhe."
+ },
+ {
+  "id": "1747",
+  "file": "src_audio/fleurs/hi_in/test/16976841982852749134.wav",
+  "dur": 3.8,
+  "lang": "ne",
+  "cer": 1.094,
+  "ref": "लूना को साथी पहलवानों ने भी श्रद्धांजलि दी.",
+  "hyp": "Luna wasati pailwanonebi sardhanjali de"
+ },
+ {
+  "id": "1779",
+  "file": "src_audio/fleurs/hi_in/test/14211299707514072668.wav",
+  "dur": 10.6,
+  "lang": "hi",
+  "cer": 1.049,
+  "ref": "तुर्की के राष्ट्रपति रजब तैयब इरदुगान के साथ ट्रंप की फ़ोन पर चर्चा होने के बाद घोषणा की गई थी.",
+  "hyp": "Turki Ke Rashpati Rajabtaiyak Urduwan ke saad Ramth ki Phon Parcharcha, Phonik ke baad Khushna ki Gaiti."
+ },
+ {
+  "id": "1917",
+  "file": "src_audio/fleurs/hi_in/test/2129043417079181978.wav",
+  "dur": 8.9,
+  "lang": "hi",
+  "cer": 1.081,
+  "ref": "रोम में अलग-अलग जगहों पर कई बड़े टेलीविज़न स्क्रीन लगाए गए ताकि लोग समारोह देख सकें.",
+  "hyp": "Room may alug alug jagoom per kai buddha telewizant screen lagaay gaya ta ki, log smart ho de xakin"
+ },
+ {
+  "id": "1958",
+  "file": "src_audio/fleurs/hi_in/test/1137772989789278397.wav",
+  "dur": 8.8,
+  "lang": "ur",
+  "cer": 0.849,
+  "ref": "यह शहर देश के बाकी शहरों से अलग है क्योंकि यह किसी अफ्रीकी शहर की बजाय अरब शहर लगता है.",
+  "hyp": "یہ شہر دیش کے باقی شہروں سے الغ ہے کیونکی افریقی شہر کی بجائے ارب شہر لگتا ہے"
+ },
+ {
+  "id": "1982",
+  "file": "src_audio/fleurs/hi_in/test/11923218739051303470.wav",
+  "dur": 7.8,
+  "lang": "hi",
+  "cer": 0.958,
+  "ref": "महिलाएँ: यह अनुशंसा की जाती है कि कोई भी महिला यात्री वास्तविक वैवाहिक स्थिति के बावजूद कहती है कि वह विवाहित है.",
+  "hyp": "Mahalaiya Anushansa kiyaathe hai ki koiwi Mahalaiyaathe vastavik vavayake siti ke bhaavjud kaiti hai ki vav"
+ },
+ {
+  "id": "1937",
+  "file": "src_audio/fleurs/hi_in/test/13003185437122223029.wav",
+  "dur": 31.4,
+  "lang": "hi",
+  "cer": 0.991,
+  "ref": "हालाँकि, लगभग रातों-रात इन योजनाओं को तब बनाया गया था जब सोवियत की यूनियन रेड आर्मी के 800,000 से ज़्यादा सैनिकों ने पोलैंड के पूर्वी क्षेत्रों पर हमला करने के बाद प्रवेश करते हुए बेलारूसी और यूक्रेनी मोर्चे खड़े कर दिए थे. उन्होंने यह रिगा शांति संधि, द सोवियत-पॉलिश नॉन-एग्रेशन पैक्ट और अन्य अंतरराष्ट्रीय द्विपक्षीय और बहुपक्षीय दोनों तरह की संधियों का उल्लंघन करते हुए किया था.",
+  "hyp": "hala ki lagwag rathurat in Yojnao kutta bhanayag aay tha, jab soviyaat ki union raid army ke 8 laksis yadha, sehanikun e poland ke purvik shitro bharham lagarne keb badh prveish karthi huy, belar usia yukreini murchikar hai kare dhe, unna ne ye riga shanti sandhi, jab soviyaat polish non agression, pact aur anyan darastraid huy pakshib aur bhaupakshib donna tarakis sandhi huy kao langaarthi huy"
+ },
+ {
+  "id": "1685",
+  "file": "src_audio/fleurs/hi_in/test/8920059957255554825.wav",
+  "dur": 15.4,
+  "lang": "hi",
+  "cer": 0.983,
+  "ref": "उदाहरण के लिए, दुनिया में सबसे ज़्यादा इस्तेमाल होने वाला फ़ोटोग्राफ़ी फ़ॉर्मेट 35mm है. यह एनालॉग फिल्म दौर के आखिर में काफी प्रचलित था.",
+  "hyp": "Uda Harun ke liye, dunyame sabsi zadda istimal hoonuvala, fotografi format, paethis mmhe, yeha analo, filmi dorki akir mi kafei prijli te tha."
+ },
+ {
+  "id": "1851",
+  "file": "src_audio/fleurs/hi_in/test/9978005649235188652.wav",
+  "dur": 10.4,
+  "lang": "hi",
+  "cer": 0.913,
+  "ref": "चीर धाराएँ समुद्र तट पर लगकर लौटने वाली लहरों का प्रवाह होता है, अक्सर एक चट्टान या इसी तरह के पदार्थों पर।",
+  "hyp": "ھاکسر ایک چٹانیا ایسی طرح کے پدار تھوں پر"
+ },
+ {
+  "id": "1893",
+  "file": "src_audio/fleurs/hi_in/test/12193749519479711646.wav",
+  "dur": 12.5,
+  "lang": "hi",
+  "cer": 0.841,
+  "ref": "सुंदरबन दुनिया का सबसे बड़ा तटीय मैंग्रोव क्षेत्र है, जो तट से बांग्लादेशी और भारतीय पहाड़ी क्षेत्र में 80 किमी (50 मील) तक फैला हुआ है।",
+  "hyp": "ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھاں ھ"
+ },
+ {
+  "id": "1826",
+  "file": "src_audio/fleurs/hi_in/test/1765177987567043565.wav",
+  "dur": 6.4,
+  "lang": "hi",
+  "cer": 0.947,
+  "ref": "दुर्घटना के बाद, गिब्सन को अस्पताल पहुँचाया गया लेकिन कुछ ही समय बाद उनकी मृत्यु हो गई.",
+  "hyp": "Durgatna ke baad kebsan ko aspatal pahun chaya ga yaa, leke nkochhi samay baad hun kemr"
+ },
+ {
+  "id": "1984",
+  "file": "src_audio/fleurs/hi_in/test/6559956825323097558.wav",
+  "dur": 13.4,
+  "lang": "hi",
+  "cer": 0.815,
+  "ref": "सड़कों पर ज़्यादा दुर्घटना की वजह बहुत ज़्यादा कार ओनरशिप है, जिससे शरीर में हुई टूट-फूट को सुधारने के लिए हेल्थकेयर में नई तकनीकों के आविष्कार को बढ़ावा मिला है.",
+  "hyp": "ھاکہ پر زیادر بھٹنا کی وجہ بہت زیادہ کار آنرشپ ہے ھا اسے شریع میں ہی ھوٹھ پٹھ کو سدھا رہے لیے ہیلت کر میں نہیں تکنی کیوں کہ کا و"
+ },
+ {
+  "id": "1763",
+  "file": "src_audio/fleurs/hi_in/test/9144832777583634056.wav",
+  "dur": 9.7,
+  "lang": "hi",
+  "cer": 1.102,
+  "ref": "जैसे चाँद पृथ्वी पर एक खिंचाव पैदा कर, ज्वार-भाटे का कारण बनता है, वैसे ही मिल्की वे भी धनु आकाशगंगा पर एक बल लगाता है.",
+  "hyp": "Jai Se Chan Prutvi Pari ki Chau Pindakar, Chwar Pari Ka Karam Banda Hai, Ve Sai Mil Ki Vibhi Tanung Aakas Nanga Pari, 1 Ball Laga Tha Hai."
+ },
+ {
+  "id": "1796",
+  "file": "src_audio/fleurs/hi_in/test/7656274658476103913.wav",
+  "dur": 7.6,
+  "lang": "hi",
+  "cer": 1.04,
+  "ref": "वाइल्डलाइफ़ हैबिटेंट्स के रूप में काम करने वाली रेती और तटों को बनाने के लिए गाद ज़रूरी थी.",
+  "hyp": "Wiredlife Habitants Ki Rupmi Kaam Karne Wale Rethi & Tatum Ko Bananne Ki Lye Ghaad Da Zoruri Thi"
+ },
+ {
+  "id": "2007",
+  "file": "src_audio/fleurs/hi_in/test/15100264608554334458.wav",
+  "dur": 7.8,
+  "lang": "hi",
+  "cer": 0.862,
+  "ref": "यू.एस. कॉर्प्स ऑफ़ इंजीनियर्स ने अंदाजा लगाया कि 6 इंच बारिश पहले से क्षतिग्रस्त बांधों को तोड़ सकती है.",
+  "hyp": "US Corpse of Engineers Nihandaja lagaya ki 6-n-chbhari se 7-grasth badham ko tod sakti hai."
+ },
+ {
+  "id": "1889",
+  "file": "src_audio/fleurs/hi_in/test/3550122948577909974.wav",
+  "dur": 6.6,
+  "lang": "hi",
+  "cer": 1.051,
+  "ref": "इसने हमें ट्रेन, कार और इसी प्रकार के कई अन्य परिवहन के साधन दिए हैंं।",
+  "hyp": "ھa mithaame train car aur ھa siprakar ke kai anipativaan ko sadhan dhe hai."
+ },
+ {
+  "id": "1720",
+  "file": "src_audio/fleurs/hi_in/test/1078154098564425938.wav",
+  "dur": 10.4,
+  "lang": "hi",
+  "cer": 1.118,
+  "ref": "हॉट चॉकलेट बेल्जियम के मानकों पर बनी है. फलों का जूस महंगा है लेकिन बहुत अच्छा है.",
+  "hyp": "hod chocolate, Belgium ke manu ko par banti hai, follow ka juice, mango hai, lékin bhaude cha hai"
+ },
+ {
+  "id": "1752",
+  "file": "src_audio/fleurs/hi_in/test/8544409497998775656.wav",
+  "dur": 7.7,
+  "lang": "hi",
+  "cer": 0.809,
+  "ref": "जिस कारण, दो मछली की प्रजातियाँ विलुप्त हो गई हैं और अन्य दो लुप्तप्राय हो गई हैं, जिसमें हंपबैक चूब भी शामिल है.",
+  "hyp": "2 lupft , 2 lupft , 4 lupft , 4 lupft , 4 lupft , 4 lupft , 4 lupft , 4 lupft , 4 lupft , 4"
+ },
+ {
+  "id": "1719",
+  "file": "src_audio/fleurs/hi_in/test/10590937942465254187.wav",
+  "dur": 10.5,
+  "lang": "hi",
+  "cer": 0.983,
+  "ref": "गंभीर मौसम किसी भी खतरनाक मौसमी घटना के लिए वर्गीय शब्द है जिसमें नुकसान, गंभीर सामाजिक व्यवधान, या मानव जीवन की हानि की संभावना है।",
+  "hyp": "Gambir Mausama khatana khatana ke liye vrgye sabd hai, jisme nuksaan gambir samajik webdhan, ya manav jeevan ki hanik ki sambhaavna hai."
+ },
+ {
+  "id": "2008",
+  "file": "src_audio/fleurs/hi_in/test/3483277461911437185.wav",
+  "dur": 18.6,
+  "lang": "hi",
+  "cer": 1.163,
+  "ref": "बाली में इस एजेंडे के अन्य विषयों में दुनिया के बचे हुए जंगलों को बचाने, और ऐसी तकनीकों का आदान प्रदान करना का विषय शामिल है जिससे कि विकासशील देशों को कम प्रदूषणकारी तरीकों से आगे बढ़ने में मदद मिले।",
+  "hyp": "baali mi is agenda ke undervisionom hai dunia ke baatge hoi junglom ko baatchani. Aur asi takni ko ka agan pradhan krnne ka vise shambhil hai, jise ki vikaashil te ishom ko kam pradushan kaari tari ko se aage bhandne me madat me le."
+ },
+ {
+  "id": "1918",
+  "file": "src_audio/fleurs/hi_in/test/17173502838497689842.wav",
+  "dur": 12.2,
+  "lang": "hi",
+  "cer": 1.124,
+  "ref": "सुंदरबन को यूनेस्को द्वारा विश्व धरोहर घोषित किया है। जंगल का वह हिस्सा जो भारत में है उसको सुंदरबन नेशनल पार्क कहा जाता है।",
+  "hyp": "Sunderbanu Unis ko Dwara Vishwandharo Hargushit kiya gaya hai jungal ka vahasa, jo Bharatmi hai, wo se Sunderban National Park kaa jaat tha hai."
+ },
+ {
+  "id": "1860",
+  "file": "src_audio/fleurs/hi_in/test/6452456317001922868.wav",
+  "dur": 7.0,
+  "lang": "hi",
+  "cer": 1.034,
+  "ref": "राज्यपाल के कार्यालय ने बताया कि घायलों में से उन्नीस पुलिस अधिकारी थे।",
+  "hyp": "Rajya Palke Kareya Le Neh Bataya ki Ghaelumye Se Unnis Pulisadikari Ther."
+ },
+ {
+  "id": "1833",
+  "file": "src_audio/fleurs/hi_in/test/8964796570309917802.wav",
+  "dur": 10.4,
+  "lang": "hi",
+  "cer": 0.925,
+  "ref": "अरस्तू, एक दार्शनिक, ने सिद्ध किया कि सब कुछ एक या चार तत्वों के मिश्रण से बना है. वे पृथ्वी, जल, वायु और अग्नि थे.",
+  "hyp": "Arasthu, 1 Daashnik, Nesidh Dhikya ki Sab, Kuch, 1-4 Tatmukhe, Mishraan, Se, Bana, Vapratvi, Jal, Vai, Ur, Agni, Thay"
+ },
+ {
+  "id": "1806",
+  "file": "src_audio/fleurs/hi_in/test/9302569386213899016.wav",
+  "dur": 13.8,
+  "lang": "hi",
+  "cer": 1.116,
+  "ref": "चूँकि उनकी शुरुआती दिनों में प्रकाश प्रदूषण आज की तरह की समस्या नहीं थी, वे आमतौर पर शहरों में या परिसरों में स्थित हैं, जहाँ आधुनिक समय में निर्मित जगहों की तुलना में पहुँचना आसान होता हैं।",
+  "hyp": "Chuki Unki Suruatidhino me prakash padusan aaj ki Tara ki Samashya nahi thi, Vai Amtarpa Saharao meya Parisarao meyati tha, jaha Adhunik Samai me Nirmidh Jagao ki tulla mepauchana aasan hootah hai."
+ },
+ {
+  "id": "1901",
+  "file": "src_audio/fleurs/hi_in/test/16073466278877359928.wav",
+  "dur": 17.2,
+  "lang": "hi",
+  "cer": 0.964,
+  "ref": "हालाँकि एआई में विज्ञान कथाओं का एक मज़बूत अर्थ होता है, लेकिन एआई कंप्यूटर विज्ञान की एक बहुत ही अहम शाखा बनाता है, जिसमें बर्ताव से निपटना, किसी मशीन में सीखना और बुद्धिमान अनुकूलन शामिल है.",
+  "hyp": "hala ki ai in vigyan kathau ka ek masboth art hodah hai, lakin ai computer vigyan ki ek baat i am shakha baanadha hai, jis me bartav se le patna kisi masin mein sikhna, abudhimaan anukulan shamin hai."
+ },
+ {
+  "id": "1670",
+  "file": "src_audio/fleurs/hi_in/test/2588226543601176326.wav",
+  "dur": 19.6,
+  "lang": "hi",
+  "cer": 0.906,
+  "ref": "उनका ऊष्मीय व्यवहार पृथ्वी की बड़ी गुफाओं जैसा स्थिर नहीं है जो अक्सर काफी स्थिर तापमान बनाए रखती हैं, लेकिन यह जमीन के इन गहरे छेद के अनुरूप है,” यूनाइटेड स्टेट्स जियोलॉजिकल सर्वे (यूएसजीएस) की भूगर्भीय टीम और फ्लैगस्टाफ, एरिजोना में स्थित उत्तरी एरिजोना विश्वविद्यालय के ग्लेन कुशिंग ने कहा।",
+  "hyp": "اُن کا اُس مِع وِعْرَ پر تِبِعِ کی بِي قُفَن جَسِسْ تِرْنَا اِسْ تِرْنَا اِسْ تِرْنَا اِسْ تِرْنَا اِسْ تِرْنَا اِسْ تِرْنَا اِسْ تِرْنَا اِس"
+ },
+ {
+  "id": "1723",
+  "file": "src_audio/fleurs/hi_in/test/13327907168028106279.wav",
+  "dur": 12.1,
+  "lang": "hi",
+  "cer": 0.852,
+  "ref": "1889 में यह बंदरगाह कुख्यात नौसैनिक गतिरोध का ठिकाना था उस समय जर्मनी, अमेरिका और ब्रिटेन के सात जहाजों ने इस बंदरगाह से जाने से इनकार कर दिया था.",
+  "hyp": "1819, Bhandarga, Kiyat, Nose, Gatirot, Ustsama, Jermany, Amerika, & Bidrun, Jaha, Jaha, Jaha, Jaha, Jaha, Jaha, Jaha, Jaha, Jaha, Jaha, Jaha, Jaha,"
+ },
+ {
+  "id": "1803",
+  "file": "src_audio/fleurs/hi_in/test/436068764837767002.wav",
+  "dur": 11.0,
+  "lang": "hi",
+  "cer": 3.051,
+  "ref": "आपके हाथों की नमी बाहरी परतों के साथ क्रिया करेगी, जो अजीब महसूस करेगी और एक तरह का आवरण बनाएगी.",
+  "hyp": "your hands will be filled with the name of the name of the Lord who will be able to make a tree of the tree and make a tree of the tree of the tree of the tree of the tree of the tree of the tree of the tree of the tree of the tree of the tree of the tree of the tree of"
+ },
+ {
+  "id": "1706",
+  "file": "src_audio/fleurs/hi_in/test/11420171604929754563.wav",
+  "dur": 14.6,
+  "lang": "hi",
+  "cer": 0.919,
+  "ref": "ज़्यादा परंपरागत चर्चों में ईस्टर सप्ताहांत में शनिवार रात को ईस्टर विजिल का आयोजन किया जाता है, जिसमें लोग क्रिस के पुनर्जन्म का उत्सव मनाने के लिए आधी रात के समय उत्सव मनाना शुरू करते हैं.",
+  "hyp": "Jadhaparam Pradha Charchu May, Insta Sabta Khan, Meshaniwar Rath, Khrishapur, Khrishapur, Jarnan, Utsav Manana,"
+ },
+ {
+  "id": "1751",
+  "file": "src_audio/fleurs/hi_in/test/6366339989033236126.wav",
+  "dur": 18.3,
+  "lang": "ur",
+  "cer": 0.863,
+  "ref": "तूफ़ान कैटरीना के मद्देनज़र राहत और पुनर्निर्माण पर चल रहे लंबे विवाद से बहस छिड़ गई थी; जिसमें कुछ राजकोषीय रूढ़िवादियों ने “बुश की न्यू ऑरलियन्स डील” का मज़ाक बनाया है.",
+  "hyp": "تو فان کے ترینہ کے مدین از رہت اور پورنے نرمان پر چل رہے لنبے بیوات سے بہت شر گئی تھی جس میں کچھ راج کوشیر روری واضیوں نے بشکی نیو آرین سٹیل کا مذاک بنایا ہے"
+ },
+ {
+  "id": "1869",
+  "file": "src_audio/fleurs/hi_in/test/5393581790967994378.wav",
+  "dur": 17.5,
+  "lang": "hi",
+  "cer": 1.057,
+  "ref": "इसके मुंह के तालु में एक अतिरिक्त सेट के साथ ही 70 से ज़्यादा रेजर की तरह नुकीले दाँतों से भरे इसके लंबे जबड़े थे, जिसका अर्थ है कि उसके रास्ते से गुज़रने वाली किसी भी चीज़ के लिए कोई बचाव नहीं था.",
+  "hyp": "اس ke muke talu mein ek atirit sep ke saadhi sattar se zadar aizar ke tari, mukhile dhan to se bhare, hiske lambe jabre tha, hiska art tha ki uske rasti se guzar newalikise bhi chi, ke liye koi vaachab nahi tha."
+ },
+ {
+  "id": "1928",
+  "file": "src_audio/fleurs/hi_in/test/16442018171315945493.wav",
+  "dur": 10.7,
+  "lang": "hi",
+  "cer": 0.899,
+  "ref": "सन 1976 तक माचू पिचू के तीस प्रतिशत हिस्से का जीर्णोद्धार कर दिया गया था और जीर्णोद्धार का कार्य आज तक जारी है।",
+  "hyp": "Sanayi 1496-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-1936-19"
+ },
+ {
+  "id": "1768",
+  "file": "src_audio/fleurs/hi_in/test/3571969712948146868.wav",
+  "dur": 10.2,
+  "lang": "hi",
+  "cer": 1.13,
+  "ref": "परिसर के किनारे ज़्यादातर इमारतें फिर से बनाई गई हैं ताकि पर्यटकों को बेहतर ढंग से पता चल सके कि वे मूल रूप में कैसी दिखाई देती थी.",
+  "hyp": "Parisar ki ki naare saatatar imaad dey firdsye bhanai gaayin, taakhi paritokho ko bahetar dhamse pata chale ki wa mool roop mein kese dhe khaide dhe"
+ },
+ {
+  "id": "1789",
+  "file": "src_audio/fleurs/hi_in/test/5436463601286048302.wav",
+  "dur": 18.4,
+  "lang": "hi",
+  "cer": 0.938,
+  "ref": "अन्य नामांकनों में बेस्ट पिक्चर, डायरेक्टर, सिनेमेटोग्राफ़ी, कॉस्ट्यूम डिज़ाइन, फ़िल्म-संपादन, मूल स्कोर, प्रोडक्शन डिज़ाइन, ध्वनि संपादन, ध्वनि मिश्रण और ओरिजनल स्क्रीनप्ले शामिल हैं.",
+  "hyp": "Anya Namang Kanu Me Best Picture Director Cinematography Costume Design Film Sampadhan Mole Score Production Design 2020 Sampadhan 2020 Mission & Original Screenplay Shyamal"
+ },
+ {
+  "id": "1890",
+  "file": "src_audio/fleurs/hi_in/test/16573110632965818241.wav",
+  "dur": 11.6,
+  "lang": "hi",
+  "cer": 0.991,
+  "ref": "अधिकांश आधुनिक अनुसंधान दूरबीनों में अनुकूल वायुमंडलीय परिस्थितियों के साथ दूरदराज के क्षेत्रों में काम करने के लिए बहुत सुविधाएँ हैं.",
+  "hyp": "Adhikaanjha, Adhunik Anusandhan, Dhur Pino, May Anukul, Vaya, Mandiliya, Parastriti, Mayanjha, Dhur, Dharaj, Kshetra, Mayanjha, Dhur, Dharaj, Ksh"
+ },
+ {
+  "id": "1919",
+  "file": "src_audio/fleurs/hi_in/test/15660374982077402071.wav",
+  "dur": 11.2,
+  "lang": "ur",
+  "cer": 0.876,
+  "ref": "यह शहर, अफ़्रीका के कुछ सबसे सस्ते पहाड़ी गोरिल्ला ट्रेकिंग के साथ ही नायरागोंगो ज्वालामुखी की चढ़ाई करने का बेस भी है.",
+  "hyp": "یہ شہر افریقہ کی کچھ سب سے سسٹے پہرے گوریلہ ریکن کے ساتھ ہی نائرہ گونگو جو اللہ مقریقی چاہلائی کرنے کا"
+ },
+ {
+  "id": "1835",
+  "file": "src_audio/fleurs/hi_in/test/12512559449321338479.wav",
+  "dur": 22.3,
+  "lang": "hi",
+  "cer": 0.957,
+  "ref": "कोई सुनामी की चेतावनी जारी नहीं की गई है, और जकार्ता भूभौतिकी एजेंसी के अनुसार, कोई सुनामी की चेतावनी जारी भी नहीं की जाएगी क्योंकि भूकंप 6.5 की आवश्यकता को पूरा नहीं करता था।",
+  "hyp": "ھa shakta kura na hi karta tha."
+ },
+ {
+  "id": "1840",
+  "file": "src_audio/fleurs/hi_in/test/6892699137407228570.wav",
+  "dur": 9.0,
+  "lang": "ur",
+  "cer": 0.833,
+  "ref": "इटली के कई अन्य शहरों और दुनिया के बाकी हिस्सों में, खासकर पोलैंड में, इस तरह के सेटअप बनाए गए थे, जिन्हें बड़ी संख्या में लोगों ने देखा था।",
+  "hyp": "اطلقہ کئی کھیں کھیں سہروں اور دنیا کے باکہ اس ومکھاست کر پولے میں اس طرح کے سیٹھا پھنائے"
+ },
+ {
+  "id": "1955",
+  "file": "src_audio/fleurs/hi_in/test/10359991159058879218.wav",
+  "dur": 9.0,
+  "lang": "hi",
+  "cer": 1.011,
+  "ref": "MS, बीमारी केंद्रीय तंत्रिका तंत्र पर असर करती है, जिसमें दिमाग, स्पाइनल कॉर्ड और ऑप्टिक नर्व शामिल हैं.",
+  "hyp": "MS Bimari Kendriye Tantrikat Tantripur Asrkarthi hai, Jasmidh Dimang is Spinal Cord or Optic Narva Shambhil hai."
+ },
+ {
+  "id": "1993",
+  "file": "src_audio/fleurs/hi_in/test/12503699152033832615.wav",
+  "dur": 9.8,
+  "lang": "hi",
+  "cer": 1.037,
+  "ref": "अटलांटिक तूफ़ान मौसम का दसवाँ तूफ़ान, उपोष्णकटिबंधीय तूफ़ान जेरी, आज अटलांटिक महासागर में बना है.",
+  "hyp": "Atlantic Tufan, Mausambh Kadaswath Tufan. Uposnakat Bandhe Chufan Jairi, Arjun Atlantic Mahashagar,"
+ },
+ {
+  "id": "1677",
+  "file": "src_audio/fleurs/hi_in/test/8830093559754179628.wav",
+  "dur": 8.5,
+  "lang": "ur",
+  "cer": 0.961,
+  "ref": "वर्तमान में, जो कीड़े अपने पंखों को वापस नहीं मोड़ सकते हैं उनमें केवल ड्रैगनफ़्लाई और मेफलीज़ हैं.",
+  "hyp": "اور تمان میں جو کیے اپنے پنکوں کو واپس نہیں مور سب پہ ہیں ان میں کیول رگن فلای اور میں فلیز ہیں"
+ },
+ {
+  "id": "1771",
+  "file": "src_audio/fleurs/hi_in/test/9699687672328404855.wav",
+  "dur": 11.2,
+  "lang": "hi",
+  "cer": 0.774,
+  "ref": "याद रखें कि मुख्य स्टेज पर म्यूज़िक बंद हो जाने के बाद भी, फ़ेस्टिवल के कुछ हिस्से ऐसे होंगे जो देर रात तक संगीत बजाते रहेंगे.",
+  "hyp": "ھاں ہوں گے ھاں ہوں گے ھاں ہوں گے ھاں ہوں گے ھاں ہوں گے ھاں ہوں گے ھاں ہوں گے ھاں ہوں گے ھ"
+ },
+ {
+  "id": "1997",
+  "file": "src_audio/fleurs/hi_in/test/1908329718103862127.wav",
+  "dur": 13.6,
+  "lang": "hi",
+  "cer": 0.89,
+  "ref": "हालाँकि, टुबर्क्युलोसिस वाले लोगों के पूरे समूह में एक्सडीआर-टीबी का प्रतिशत अभी भी कम है; दक्षिण अफ़्रीका में किसी भी विशेष समय पर कुल 330,000 लोगों में से 6,000 संक्रमित हैं.",
+  "hyp": "HALANKE TURBQ LESIS WALILOGON PURESUMMUME X DRTB CUP RATSIT ABY BICOM HALANKE TURBQ LESIS WALILOGON PURESUMMUME X DRTB CUP RATSIT ABY BICOM HALANKE T"
+ },
+ {
+  "id": "1680",
+  "file": "src_audio/fleurs/hi_in/test/10582204498174558997.wav",
+  "dur": 20.9,
+  "lang": "hi",
+  "cer": 0.636,
+  "ref": "एक पूरी तरह से विकसित एथलीट की तरह, बाघ चढ़ाई कर सकता है (हालाँकि अच्छी तरह से नहीं), तैर सकता है, बड़ी दूरी तक छलांग लगा सकता है और एक शक्तिशाली मनुष्य के पाँच गुना बल के साथ खींच सकता है.",
+  "hyp": "1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x 1.5% x"
+ },
+ {
+  "id": "1976",
+  "file": "src_audio/fleurs/hi_in/test/5950668010832719037.wav",
+  "dur": 7.1,
+  "lang": "hi",
+  "cer": 0.978,
+  "ref": "मध्य क्रम के बल्लेबाज सचिन तेंदुलकर और राहुल द्रविड़ ने अच्छा प्रदर्शन किया और शतकीय साझेदारी बनाई.",
+  "hyp": "Maddhikram ke balliwal sachinti andrukar aur rahol dravid ne hchha prasasasasasasasasasasasasasasas"
+ },
+ {
+  "id": "1961",
+  "file": "src_audio/fleurs/hi_in/test/11845204635878039304.wav",
+  "dur": 21.5,
+  "lang": "hi",
+  "cer": 0.981,
+  "ref": "समाजीकरण के महत्व को स्पष्ट करने के लिए इस्तेमाल किए जाने वाले सबसे आम तरीकों में से कुछ बच्चों के दुर्भाग्यपूर्ण मामलों को आकर्षित करना है, जो बड़े होने के दौरान वयस्कों द्वारा उपेक्षित नहीं, बल्कि उपेक्षा, दुर्भाग्य या दुर्व्यवहार के माध्यम से होते थे।",
+  "hyp": "Samaji Karan ke Mahatuku ispast karne ke liye istemal keye jane wale sabse am tariku me se kuch bhajco ke durbhajipur maamlou ko akarsit karna ha. Jo bhajane ke davran wa esko dwarra upe kshit nahi bhaj ki upe kshadur bhajge ja durwewar ke madem se hotehte."
+ },
+ {
+  "id": "1921",
+  "file": "src_audio/fleurs/hi_in/test/8221165074366964434.wav",
+  "dur": 10.6,
+  "lang": "hi",
+  "cer": 1.075,
+  "ref": "वहीं दूसरी ओर, कई देशों में ठंडी और बर्फ़ भरी परिस्थितियां होना आम बात है, और ट्रैफ़िक पूरे साल ज़्यादातर बिना रुकावट चलता रहता है.",
+  "hyp": "Vahin Dusri aur kai desu maththandhi aur barbarhi prasthitya hona aur baat hai aur trafik pura saal jadatar vinne rukavad chalta rata hai."
+ },
+ {
+  "id": "1985",
+  "file": "src_audio/fleurs/hi_in/test/12919174378536885221.wav",
+  "dur": 13.4,
+  "lang": "en",
+  "cer": 0.994,
+  "ref": "यह संबंधित है, लेकिन आम तौर पर इसमें अल्पाइन शैली की स्की टूरिंग या माउंटेनीयरिंग शामिल नहीं होती है, जिसे खड़े इलाकों में किया जाता है और जिसके लिए बहुत कड़ी स्की और बूट की ज़रूरत होती है.",
+  "hyp": "[SPEAKING SPANISH]"
+ },
+ {
+  "id": "1887",
+  "file": "src_audio/fleurs/hi_in/test/1236616481434986.wav",
+  "dur": 9.5,
+  "lang": "hi",
+  "cer": 1.098,
+  "ref": "अस्पताल में काम करते हुए, लिगिन्स ने अपने खाली समय के दौरान समय से पहले प्रसव की जाँच शुरू कर दी.",
+  "hyp": "hospur dal me karm kar te vwau legings na apne khali samay ke dooran samay se pehre prasap ki dhan shurukardhi."
+ },
+ {
+  "id": "1830",
+  "file": "src_audio/fleurs/hi_in/test/6412098882560291653.wav",
+  "dur": 8.2,
+  "lang": "en",
+  "cer": 1.062,
+  "ref": "सत्ताधारी दल साउथ वेस्ट अफ्रीका पीपल आर्गेनाइजेशन (स्वापो) ने संसदीय चुनाव में बहुमत पाया.",
+  "hyp": "Sattadharid al-South West of Africa People Organization, Swapu, Neh Sandsadhi Chnau May Bhuhumat Paya."
+ },
+ {
+  "id": "1695",
+  "file": "src_audio/fleurs/hi_in/test/11871977786251235384.wav",
+  "dur": 19.0,
+  "lang": "hi",
+  "cer": 1.014,
+  "ref": "एक सामान्य लोकप्रिय डिनर, विशेष रूप से गर्मी के मौसम में, पा एम्बे ओली है: ब्रेड के साथ ऑलिव ऑयल, टमाटर, और कोई भी उपलब्ध रुचिकर सामग्री जैसे पनीर, ट्यूना मछली आदि।",
+  "hyp": "1 Samanye Lok Priyadinner, Shreya Shrupp se Garmi ke Maasamme, Paa, Maa Ali hai, Baird ke Saad Ali Voil, Tamater, Kaoibhi Uplavd, Ruchikar Samagri, Jai Se Panir, Jaiuna Machli Adhi"
+ },
+ {
+  "id": "1742",
+  "file": "src_audio/fleurs/hi_in/test/11679504829817040349.wav",
+  "dur": 11.2,
+  "lang": "hi",
+  "cer": 1.141,
+  "ref": "हांगकांग द्वीप हांगकांग के क्षेत्र को उसका नाम देता है और यह वह स्थान है जिसे कई पर्यटक मुख्य केंद्र बिंदु मानते हैं।",
+  "hyp": "Hong Kong Dweep, Hong Kong's Chitrakoos' name is given to Hong Kong and this is the western, which many Priyattaq Bhukya Kinderwindu-Mantin."
+ },
+ {
+  "id": "1886",
+  "file": "src_audio/fleurs/hi_in/test/11816700057964730502.wav",
+  "dur": 13.3,
+  "lang": "hi",
+  "cer": 1.115,
+  "ref": "प्राचीन संस्कृतियों और जनजातियों ने दूध, बाल, मांस और चमड़े को अपनी आसान पहुँच में बनाए रखना शुरू कर दिया.",
+  "hyp": "Prachandha Sanskrityo, Aur Janjati-o Neh, Dhu Baal Manse aur Chamre ko apni asan pohnch mebhana hai lakna, Suru karthia."
+ },
+ {
+  "id": "1799",
+  "file": "src_audio/fleurs/hi_in/test/3588621217293213129.wav",
+  "dur": 9.8,
+  "lang": "hi",
+  "cer": 1.042,
+  "ref": "बुधवार के आयोजन के बाद, कारपानेडो ने चैंपियनशिप में दो इंडिविज़ुअल रेस में हिस्सा लिया.",
+  "hyp": "Bhoodhkar ke ayujan ke baad Karpa Needo ne Championship ne 2 Individuals Race ne Hissalia"
+ },
+ {
+  "id": "1687",
+  "file": "src_audio/fleurs/hi_in/test/13109433266350566952.wav",
+  "dur": 10.1,
+  "lang": "hi",
+  "cer": 1.0,
+  "ref": "अलगाव और पुनर्संयोजन भिन्नता प्रत्येक पीढ़ी के साथ दो पूलों के बीच आगे-पीछे होती रहती है।",
+  "hyp": "Álgav & Puneer Senyujan, Binnata Pratik Pidi ke Saad, 2 Pula Ke Biji, Aaghe Piji khutirahti hai."
+ },
+ {
+  "id": "1760",
+  "file": "src_audio/fleurs/hi_in/test/3618823038400295274.wav",
+  "dur": 9.5,
+  "lang": "hi",
+  "cer": 1.169,
+  "ref": "मोसासौरस अपने समय का सबसे बड़ा शिकारी था, इसलिए उसे अन्य मोसासौरस के अलावा किसी का भय नहीं था।",
+  "hyp": "Mossasaurus apne samayka sabse bada shikharita, اس lye uze annya Mossasaurus ke alawa kise ka bhae nahin tha"
+ },
+ {
+  "id": "1897",
+  "file": "src_audio/fleurs/hi_in/test/8807905552280255551.wav",
+  "dur": 9.7,
+  "lang": "hi",
+  "cer": 1.0,
+  "ref": "उत्तर में यह क्षेत्र साहेल और दक्षिण और पश्चिम में अटलांटिक महासागर से घिरा है.",
+  "hyp": "utthar meya chhetra sahil aur dhachun aur pasim me atelantik maha dhaagar fikir hai"
+ },
+ {
+  "id": "1866",
+  "file": "src_audio/fleurs/hi_in/test/7037862691881688112.wav",
+  "dur": 7.3,
+  "lang": "en",
+  "cer": 0.957,
+  "ref": "सबसे पहले, अधिकांश सवार हील और एक चिकनी, काफी पतले तले वाले राइडिंग बूट्स पहनते हैं।",
+  "hyp": "So, if you like this I'll say I'm here, but if you're not here, but that I'm here, I'm here."
+ },
+ {
+  "id": "1909",
+  "file": "src_audio/fleurs/hi_in/test/7742172348084742883.wav",
+  "dur": 14.0,
+  "lang": "hi",
+  "cer": 1.165,
+  "ref": "वर्चुअल टीमों को भी परंपरागत टीमों की तरह ही उत्कृष्टता के समान मानकों पर रखा जाता है, लेकिन उनमें बारीक अंतर होते हैं.",
+  "hyp": "Varsul Timukubhi param paragat Timukhi tarahahi uttukrushkutake saman manukubhwar rakhaja tha hai. Lekin,unme baarik antar hota hai."
+ },
+ {
+  "id": "1868",
+  "file": "src_audio/fleurs/hi_in/test/13033303492941325688.wav",
+  "dur": 13.7,
+  "lang": "hi",
+  "cer": 1.028,
+  "ref": "वहीं स्पेक्ट्रम का दूसरा सिरा, कोई व्यक्ति किसी ऐसे अपिरिचित व्यक्ति का रूप लेता है जिसे लगता है कि उसे टीम में सब कुछ बदल देना चाहिए और उसे अपने हिसाब से बनाना चाहिए.",
+  "hyp": "Vahe ispattram ka dhushra siraa koi vakti kisi aaparichit vakti ka rup lehta hai, jise lakta hai ki usat team mein sabkut bha dha dha dha dha dha dha dha dha dha dha dha dha dha dha d"
+ },
+ {
+  "id": "1884",
+  "file": "src_audio/fleurs/hi_in/test/15102900664499962233.wav",
+  "dur": 10.2,
+  "lang": "hi",
+  "cer": 1.017,
+  "ref": "विशेष रूप से, यह दावा किया जाता है कि किसी व्यक्ति की सूक्ष्म अभिव्यक्तियों की सही व्याख्या करके यह समझा सकता है कि वह झूठ बोल रहा है या नहीं।",
+  "hyp": "Vise srubh ja dawakya jaatah hai ki svirati ki sukshin abhirya ktyokhi sahirya kya karnakkar ke yaasam jaasakta hai ki waajur bhol raha hai ya"
+ },
+ {
+  "id": "1717",
+  "file": "src_audio/fleurs/hi_in/test/6278824707754656238.wav",
+  "dur": 9.8,
+  "lang": "hi",
+  "cer": 0.863,
+  "ref": "अंडरवॉटर टोपोलॉजी के कारण कुछ गहरे सेक्शन्स में रिटर्न फ़्लो सांद्र होता है और यहां से गहरे पानी में तेज़ प्रवाह हो सकता है.",
+  "hyp": "Underwater topology, some of the reasons for this are return flows of sand and water is used in this area."
+ },
+ {
+  "id": "1764",
+  "file": "src_audio/fleurs/hi_in/test/3313037868833670407.wav",
+  "dur": 13.3,
+  "lang": "hi",
+  "cer": 0.99,
+  "ref": "मौजूद लोगों की संख्या इतनी बड़ी थी कि सेंट पीटर्स स्क्वायर में अंतिम संस्कार के लिए हर किसी के लिए पहुँच पाना मुमकिन नहीं था.",
+  "hyp": "Mahujudh Logi Sankhya,itni bharithi ki Sandpittersqwarme,an Tim Sankhya ke liye,her kisi ke liye,pahujpana,mungin nahi tha."
+ },
+ {
+  "id": "1802",
+  "file": "src_audio/fleurs/hi_in/test/16715413603857130243.wav",
+  "dur": 6.4,
+  "lang": "hi",
+  "cer": 0.868,
+  "ref": "इंटरनेट, लोगों और अंतर-परस्पर संचार, दोनों के तत्वों को मिलाता है.",
+  "hyp": "Internet, Logo & Anthroparespersperse 4, 2,1,1,1,1,1,1,1,1,1,1,1,"
+ },
+ {
+  "id": "1966",
+  "file": "src_audio/fleurs/hi_in/test/11847046500833945297.wav",
+  "dur": 9.7,
+  "lang": "hi",
+  "cer": 0.947,
+  "ref": "अक्टूबर में शुरू हुए व्यापक शासन विरोधी प्रदर्शनों के लिए आयोग का गठन मार्टेली की प्रतिक्रिया स्वरूप हुआ था.",
+  "hyp": "October, May, 2020, by Apak Shasan, Virudi Pradarshano, Ayyoka, Ghatan, Mahatma, Delhi, Kiprati, Kriya Swarup, Khova,"
+ },
+ {
+  "id": "1981",
+  "file": "src_audio/fleurs/hi_in/test/10907654079731428081.wav",
+  "dur": 12.8,
+  "lang": "hi",
+  "cer": 0.83,
+  "ref": "यदि आप केवल शिपबोर्ड भ्रमण का उपयोग करके किनारे तक जाते हैं तो आपको एक अलग वीज़ा की आवश्यकता नहीं होगी (2009 तक).",
+  "hyp": "If you are only a support, promote or a job, then you can not be a separate person."
+ },
+ {
+  "id": "1784",
+  "file": "src_audio/fleurs/hi_in/test/10014385262415025488.wav",
+  "dur": 13.8,
+  "lang": "hi",
+  "cer": 0.87,
+  "ref": "ग्रीनलैंड को बहुत कम जगह बसाया गया था. नॉर्स सगास में वे कहते हैं कि एरिक रेड हत्या के लिए आइसलैंड से निर्वासित किया गया था, और आगे पश्चिम की यात्रा करते समय, ग्रीनलैंड मिला जिसे ग्रीनलैंड नाम दिया गया.",
+  "hyp": "Greelland was aad, Nords was aad, and the North was a village, where the Ariesland was built. Greelland was a village called Greenland."
+ },
+ {
+  "id": "1666",
+  "file": "src_audio/fleurs/hi_in/test/10107687492910459268.wav",
+  "dur": 10.6,
+  "lang": "hi",
+  "cer": 0.89,
+  "ref": "अपनी सरकार के अलावा आप अन्य देशों की सरकारों की सलाह ले सकते हैं. हालाँकि, उनकी सलाह उनके नागरिकों को ध्यान में रखकर दी जाती हैं.",
+  "hyp": "اپنی سرکار کے لواب انی دیشو کی سرکاروں کی سلا لے سکتے ہیں حلا کی ان کی سلا ان کے نارکوں کو دھان میں رکل دی جاتی"
+ },
+ {
+  "id": "1844",
+  "file": "src_audio/fleurs/hi_in/test/12150230149527456841.wav",
+  "dur": 6.2,
+  "lang": "hi",
+  "cer": 1.083,
+  "ref": "चांद की सतह चट्टानों और धूल से बनी है. चांद की बाहरी परत को क्रस्ट कहते हैं.",
+  "hyp": "Chant ki zathachattano aur Dhulze bani hai, Chant ki bahri pratku krast kai hai."
+ }
+]
