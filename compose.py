@@ -18,7 +18,7 @@ The wait is compressed because the emulator decodes slower than a phone; no spee
 
   python3 compose.py --capture <artifacts>/shorts --month 2026-11
 """
-import argparse, csv, json, subprocess, sys
+import argparse, csv, json, re, subprocess, sys
 from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
@@ -41,14 +41,26 @@ HOOKS = {
     "es_flamencos_a": "Modo avión activado.\nY transcribe igual.",
     "es_flamencos_b": "De audio a texto,\nsin internet.",
     "pt_azevedo": "Modo avião ligado.\nE transcreve mesmo assim.",
+    # Arabic (2026-10-23): recorded with the free accuracy pack installed, which the done line says.
+    "ar_aurora": "وضع الطيران مفعّل.\nومع ذلك يحوّل الصوت إلى نص.",
+    "ar_italian": "من تسجيلك إلى نص.\nوالصوت يبقى على هاتفك.",
+    "ar_tourism": "كلام عربي يصبح نصًا.\nبدون إنترنت.",
+    "ar_travel": "تحويل الكلام إلى نص.\nبدون حساب.",
+    "ar_transport": "وضع الطيران مفعّل.\nوالنص يظهر رغم ذلك.",
 }
 L10N = {  # on-video "done" line, end-card line, link-in-bio line
     "en": ("Transcribed 100% on the phone", "Free on Google Play", "Link in bio"),
     "fr": ("Transcrit à 100 % sur le téléphone", "Gratuit sur Google Play", "Lien dans la bio"),
     "es": ("Transcrito 100% en el teléfono", "Gratis en Google Play", "Enlace en la bio"),
     "pt": ("Transcrito 100% no celular", "Grátis no Google Play", "Link na bio"),
+    # Arabic needs the free accuracy pack for this quality: the done line says so, never implied.
+    "ar": ("تم التحويل على الهاتف بحزمة الدقة المجانية", "مجاني على Google Play", "الرابط في البايو"),
 }
+CREDITS = {"ar": "Audio: FLEURS (Google), CC BY 4.0"}   # FLEURS needs attribution; LibriVox is public domain
 CREDIT = "Audio: LibriVox (public domain)"
+# Arabic segments: FLEURS ar_eg utterances the pack transcribes with 0 character errors (eval_omni_ar_eg.json),
+# neutral topics only; the reference text, to refuse a capture whose on-device text differs.
+SEG_DIRS = {"ar": "seg_ar"}
 
 # Caption = TITLE line + body. basikcode-social's youtube.py uses the first line as the YouTube
 # title (+ " #shorts", cut at ~90 chars), and TikTok shows it first too — so it must be a
@@ -82,6 +94,26 @@ CAPTIONS = {
                  "directement sur votre téléphone : votre audio ne le quitte jamais. Fonctionne hors ligne dans "
                  "des dizaines de langues.",
                  "#transcription #julesverne #livreaudio #horsligne #vieprivée #étudiant #android"),
+    "ar_aurora": ("تحويل الصوت إلى نص بدون إنترنت ✈️ الشفق القطبي",
+                  "جملة عن الشفق القطبي، حوّلها الهاتف إلى نص وهو في وضع الطيران. Speech to Text Offline يحوّل الكلام "
+                  "إلى نص على هاتفك، والتسجيل الصوتي لا يغادره. للعربية: حزمة دقة مجانية داخل التطبيق.",
+                  "#تحويل_الصوت_إلى_نص #تفريغ_صوتي #الشفق_القطبي #بدون_انترنت #خصوصية #اندرويد"),
+    "ar_italian": ("الإيطالية لغة الحياة اليومية 🇮🇹 من صوت إلى نص على الهاتف",
+                   "هذا النص كتبه الهاتف نفسه من التسجيل، بلا إنترنت. الملاحظات الصوتية والمحاضرات والاجتماعات "
+                   "تتحول إلى نص على جهازك، والصوت يبقى عليه.",
+                   "#تحويل_الصوت_إلى_نص #تفريغ_صوتي #تعلم_اللغات #ملاحظات_صوتية #بدون_انترنت #اندرويد"),
+    "ar_tourism": ("مبانٍ أُعيد بناؤها للسياح 🏛️ تفريغ صوتي بلا إنترنت",
+                   "جملة عربية تحولت إلى نص على الهاتف في وضع الطيران ✈️. التطبيق مجاني، والعربية تعمل بحزمة "
+                   "دقة مجانية تُنزَّل مرة واحدة.",
+                   "#تفريغ_صوتي #تحويل_الكلام_إلى_نص #سياحة #بدون_انترنت #خصوصية #اندرويد"),
+    "ar_travel": ("الصبر ضروري حتى عند العودة إلى الديار ✈️ كلام يتحول إلى نص",
+                  "تسجيل صوتي يصبح نصًا على هاتفك مباشرة، بدون حساب وبدون إنترنت. مفيد للرسائل الصوتية "
+                  "والدروس والمقابلات.",
+                  "#تحويل_الصوت_إلى_نص #رسائل_صوتية #سفر #بدون_انترنت #دراسة #اندرويد"),
+    "ar_transport": ("الجميع يشتكي من المواصلات 🚌 من صوت إلى نص في وضع الطيران",
+                     "حتى بدون إنترنت، يكتب الهاتف ما يقال. Speech to Text Offline يعمل على جهازك، والتسجيل الصوتي "
+                     "لا يغادره.",
+                     "#تحويل_الصوت_إلى_نص #تفريغ_صوتي #مواصلات #بدون_انترنت #خصوصية #اندرويد"),
     "pt_azevedo": ("Voz para texto em modo avião ✈️ Um conto de Aluísio Azevedo 🚢",
                    "Um passageiro de 25 anos deixa o camarote… O Speech to Text Offline transforma voz em texto no "
                    "seu próprio celular: seu áudio nunca sai dele. Funciona offline em dezenas de idiomas.",
@@ -89,19 +121,53 @@ CAPTIONS = {
 }
 
 
-def font(size, bold=True):
-    for p in ([f"/usr/share/fonts/truetype/noto/NotoSans-{'Bold' if bold else 'Regular'}.ttf",
+def font(size, bold=True, arabic=False):
+    name = f"NotoSansArabic-{'Bold' if bold else 'Regular'}" if arabic else f"NotoSans-{'Bold' if bold else 'Regular'}"
+    for p in ([f"/usr/share/fonts/truetype/noto/{name}.ttf",
                f"/usr/share/fonts/truetype/dejavu/DejaVuSans{'-Bold' if bold else ''}.ttf"]):
         if Path(p).exists():
             return ImageFont.truetype(p, size)
     return ImageFont.load_default()
 
 
+ARABIC = re.compile(r"[\u0600-\u06FF]")
+
+
+def runs(line, size, bold=True):
+    """A line as (text, font, direction) runs in VISUAL order, left to right. Noto Sans Arabic has no
+    Latin letters and Noto Sans no Arabic, so a mixed line ("مجاني على Google Play") is drawn run by
+    run; raqm shapes each Arabic run (joined letters, right to left). An Arabic line reads right to
+    left, so its runs are laid out in reverse."""
+    if not ARABIC.search(line):
+        return [(line, font(size, bold), None)]
+    parts = [p for p in re.split(r"([A-Za-z][A-Za-z0-9 .%:,()-]*[A-Za-z0-9%)])", line) if p]
+    out = [(p.strip(), font(size, bold, arabic=bool(ARABIC.search(p))), "rtl" if ARABIC.search(p) else "ltr")
+           for p in parts if p.strip()]
+    return list(reversed(out))
+
+
+def line_width(draw, line, size, bold=True):
+    rs = runs(line, size, bold)
+    gap = size * 0.28 if len(rs) > 1 else 0
+    return sum(draw.textlength(t, font=f, direction=d) for t, f, d in rs) + gap * (len(rs) - 1)
+
+
+def draw_line(draw, x, y, line, size, fill, bold=True):
+    """y = top of the line, as for a Latin line. All runs share ONE baseline (the Latin font's), else
+    the Arabic font's taller metrics drop its run below the Latin one and out of the pill."""
+    rs = runs(line, size, bold)
+    gap = size * 0.28 if len(rs) > 1 else 0
+    base = y + font(size, bold).getmetrics()[0]
+    for t, f, d in rs:
+        draw.text((x, base), t, font=f, fill=fill, direction=d, anchor="ls")
+        x += draw.textlength(t, font=f, direction=d) + gap
+
+
 def text_block(draw, text, fnt, y, fill, width=W, spacing=18):
-    lines = text.split("\n")
-    for ln in lines:
-        w = draw.textlength(ln, font=fnt)
-        draw.text(((width - w) / 2, y), ln, font=fnt, fill=fill)
+    bold = "Bold" in (getattr(fnt, "path", "") or "")
+    for ln in text.split("\n"):
+        w = line_width(draw, ln, fnt.size, bold)
+        draw_line(draw, (width - w) / 2, y, ln, fnt.size, fill, bold)
         y += fnt.size + spacing
     return y
 
@@ -110,7 +176,7 @@ def hook_png(text, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     size = 66
-    while size > 36 and max(d.textlength(l, font=font(size)) for l in text.split("\n")) > W - 2 * 110:
+    while size > 36 and max(line_width(d, l, size) for l in text.split("\n")) > W - 2 * 110:
         size -= 2   # shrink until the widest line fits inside the box with margin
     f = font(size)
     n = text.count("\n") + 1
@@ -118,7 +184,8 @@ def hook_png(text, path):
     top = 330
     d.rounded_rectangle((60, top, W - 60, top + box_h), radius=36, fill=(20, 20, 20, 215))
     text_block(d, text, f, top + 40, (255, 255, 255, 255))
-    if "✈" in text or "vion" in text.lower() or "irplane" in text or "avião" in text.lower() or "avión" in text.lower():
+    if "✈" in text or "vion" in text.lower() or "irplane" in text or "avião" in text.lower() or "avión" in text.lower() \
+            or "الطيران" in text:
         # The claim's proof is the real status-bar airplane icon (x≈943, y≈33 at 1080 wide),
         # too small to notice on a phone without a pointer.
         cx, cy, r = 943, 34, 38
@@ -127,21 +194,33 @@ def hook_png(text, path):
     img.save(path)
 
 
-def done_png(text, path):
+def free_band_top(frame, x0, x1, bh, want=330):
+    """Top of the band nearest `want` that covers the least dark ink (text, teal buttons) in the result
+    frame, so the pill never hides the transcript. The Arabic run scrolls the result card up and the
+    fixed y=330 pill hid its first line (2026-10-24). Kept above the bottom ~20% that TikTok covers."""
+    g = np.asarray(Image.open(frame).convert("L").resize((W, H)), dtype=np.int16)[:, int(max(0, x0)):int(min(W, x1))]
+    ink = np.concatenate([[0], np.cumsum((g < 95).sum(axis=1))])
+    tops = list(range(130, int(H * 0.78) - bh, 5))
+    cost = [ink[t + bh + 12] - ink[t - 12] for t in tops]
+    low = min(cost)
+    return min((t for t, c in zip(tops, cost) if c <= low + 50), key=lambda t: abs(t - want))
+
+
+def done_png(text, path, frame=None):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     size = 50
-    while size > 30 and d.textlength(text, font=font(size)) > W - 2 * 130:
+    while size > 30 and line_width(d, text, size) > W - 2 * 130:
         size -= 2   # fit inside the band ("Transcrit à 100 % sur le téléphone" overflowed)
-    f = font(size)
-    top, bh = 330, size + 60
-    tw = d.textlength(text, font=f)
+    bh = size + 60
+    tw = line_width(d, text, size)
+    top = free_band_top(frame, (W - tw) / 2 - 60, (W + tw) / 2 + 60, bh) if frame else 330
     d.rounded_rectangle(((W - tw) / 2 - 50, top, (W + tw) / 2 + 50, top + bh), radius=bh // 2, fill=TEAL + (240,))
-    d.text(((W - tw) / 2, top + 26), text, font=f, fill=(255, 255, 255, 255))
+    draw_line(d, (W - tw) / 2, top + 26, text, size, (255, 255, 255, 255))
     img.save(path)
 
 
-def end_png(line, bio, path):
+def end_png(line, bio, path, credit=CREDIT):
     """One centred block, all inside the safe zone. TikTok/YouTube Shorts cover the bottom ~20% and the
     right edge with their own buttons, so the first version's credit at y=1560 would have been
     hidden. Caption links can't be tapped there either, hence "Link in bio" (the BasikCode bio
@@ -155,11 +234,10 @@ def end_png(line, bio, path):
         size -= 2   # keep clear of the right edge, where TikTok puts its buttons
     y = text_block(d, "Speech to Text Offline", font(size), 870, INK)
     y = text_block(d, line, font(54, bold=False), y + 16, TEAL)
-    f = font(46)
-    tw = d.textlength(bio, font=f)
+    tw = line_width(d, bio, 46)
     d.rounded_rectangle(((W - tw) / 2 - 44, y + 36, (W + tw) / 2 + 44, y + 36 + 92), radius=46, fill=TEAL)
-    d.text(((W - tw) / 2, y + 56), bio, font=f, fill=(255, 255, 255))
-    text_block(d, CREDIT, font(30, bold=False), y + 190, (110, 110, 110))
+    draw_line(d, (W - tw) / 2, y + 56, bio, 46, (255, 255, 255))
+    text_block(d, credit, font(30, bold=False), y + 190, (110, 110, 110))
     img.save(path)
 
 
@@ -177,7 +255,8 @@ def duration(path):
 def detect_text_time(rec, t_open, t_done):
     """First time the transcript box fills with dark text. The capture's poll timestamps are only
     ~2-4 s precise; the video itself says exactly when the text lands."""
-    x0, y0, x1, y1 = 100, 1150, 980, 1700
+    # Tall crop: in RTL locales the app scrolls the result card up when the text lands.
+    x0, y0, x1, y1 = 100, 300, 980, 1750
     fps = 10
     p = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t_open}", "-to", f"{t_done + 2}", "-i", str(rec),
                         "-vf", f"fps={fps},crop={x1-x0}:{y1-y0}:{x0}:{y0},format=gray", "-f", "rawvideo", "-"],
@@ -186,25 +265,49 @@ def detect_text_time(rec, t_open, t_done):
     fr = np.frombuffer(p.stdout, np.uint8)
     fr = fr[: len(fr) // n * n].reshape(-1, n)
     dark = (fr < 90).sum(axis=1)
-    base = dark[: max(3, fps)].min()
-    hit = np.nonzero(dark > base + 3000)[0]
+    base = np.median(dark)                              # the long "transcribing" stretch, not the first second
+    # The text stays on screen until the recording ends: it landed right after the LAST frame that
+    # was still near the "transcribing" baseline (robust to a busy home screen in the first second).
+    quiet = np.nonzero(dark <= base + 1500)[0]
+    hit = quiet[-1:] + 1 if len(quiet) and quiet[-1] + 1 < len(dark) else np.array([], int)
     return t_open + (hit[0] / fps if len(hit) else (t_done - t_open))
+
+
+def norm_ar(t):
+    """Arabic text compared the way readers see it: no diacritics/tatweel, alef/ya/ta-marbuta variants,
+    no punctuation (the pack writes none; the reference has some)."""
+    import unicodedata
+    t = unicodedata.normalize("NFKC", t)
+    t = re.sub(r"[\u064B-\u0652\u0640]", "", t); t = re.sub(r"[إأآ]", "ا", t).replace("ى", "ي").replace("ة", "ه")
+    t = re.sub(r"\[[0-9:]+\]", " ", t)                 # timestamps, if the setting was on
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", t)).strip()
 
 
 def compose(cid, capture, month, idx, tmp):
     lang = cid.split("_")[0]
     rec = capture / f"{cid}.mp4"
     meta = json.loads((capture / f"{cid}.json").read_text())
-    wav = HERE / "seg" / f"{cid}.wav"
+    ref = HERE / SEG_DIRS.get(lang, "seg") / f"{cid}.txt"
+    if ref.exists():
+        # A showcase: the text on screen must be exactly what was said (Fabien, 2026-10-23: "très vigilant").
+        got, want = norm_ar(meta["transcript"]), norm_ar(ref.read_text(encoding="utf-8"))
+        if got != want:
+            sys.exit(f"{cid}: on-screen text differs from the reference, clip refused\n  got:  {got}\n  want: {want}")
+    wav = HERE / SEG_DIRS.get(lang, "seg") / f"{cid}.wav"
     D = duration(wav)
     t_open = max(0.0, float(meta["t_open"]) - 0.6)
-    t_text = detect_text_time(rec, float(meta["t_open"]), float(meta["t_done"]))
     rec_len = duration(rec)
-    hold = min(4.5, max(2.0, rec_len - t_text - 0.2))
+    # t_done can fall after the recording's end (slow pack runs); a seek past the end makes the
+    # looped "done" overlay never terminate, so keep 2 s of real video after the text lands.
+    t_text = min(detect_text_time(rec, float(meta["t_open"]), float(meta["t_done"])), rec_len - 2.0)
+    hold = 4.0   # time to read the result; if the recording ends sooner its last (static) frame is held
     B = max(D, 7.0)                      # text lands as the speech ends (min 7 s so the wait reads)
     speed = (t_text - t_open) / B        # >1 = compressed
     done_line, end_line, bio_line = L10N[lang]
-    hook_png(HOOKS[cid], tmp / "hook.png"); done_png(done_line, tmp / "done.png"); end_png(end_line, bio_line, tmp / "end.png")
+    run("ffmpeg", "-v", "error", "-y", "-ss", f"{min(t_text + 1.5, rec_len - 0.3)}", "-i", str(rec),
+        "-frames:v", "1", str(tmp / "result.png"))
+    hook_png(HOOKS[cid], tmp / "hook.png"); done_png(done_line, tmp / "done.png", tmp / "result.png")
+    end_png(end_line, bio_line, tmp / "end.png", CREDITS.get(lang, CREDIT))
     total = B + hold + 3.0
     out = HERE / "clips" / month / f"{idx:02d}_{cid}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -221,7 +324,7 @@ def compose(cid, capture, month, idx, tmp):
         f"[0:v]{norm},setpts=(PTS-STARTPTS)/{speed}[v];[v][1:v]overlay=enable='lt(t,2.4)':shortest=1",
         "-t", f"{B}", *venc, str(p1))
     run("ffmpeg", "-v", "error", "-y", "-ss", f"{t_text}", "-i", str(rec), "-loop", "1", "-i", str(tmp / "done.png"),
-        "-filter_complex", f"[0:v]{norm},setpts=PTS-STARTPTS[v];[v][1:v]overlay=shortest=1",
+        "-filter_complex", f"[0:v]{norm},setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop_duration={hold}[v];[v][1:v]overlay=shortest=1",
         "-t", f"{hold}", *venc, str(p2))
     run("ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", str(tmp / "end.png"),
         "-vf", norm, "-t", "3", *venc, str(p3))
@@ -247,7 +350,9 @@ def main():
     ap.add_argument("--manifest-only", action="store_true", help="rewrite captions; keep the rendered clips")
     a = ap.parse_args()
     # Interleave languages so consecutive posts differ.
-    order = ["en_wind_a", "es_flamencos_a", "fr_verne", "en_wind_b", "pt_azevedo", "es_flamencos_b", "en_wind_c"]
+    order = ["en_wind_a", "es_flamencos_a", "fr_verne", "en_wind_b", "pt_azevedo", "es_flamencos_b", "en_wind_c",
+             # Arabic, appended so the published file names (NN_<id>) of the clips above never change.
+             "ar_aurora", "ar_italian", "ar_tourism", "ar_travel", "ar_transport"]
     tmp = HERE / ".tmp"; tmp.mkdir(exist_ok=True)
     rows = []
     for i, cid in enumerate(order, 1):

@@ -1,0 +1,10 @@
+Arabic segments: FLEURS (Google), ar_eg test split, CC BY 4.0.
+https://huggingface.co/datasets/google/fleurs
+Chosen because the app's accuracy pack (Omnilingual 300M int8) transcribes them with 0 character errors
+(eval: ~/dev/repos/transcriber-clips/eval_omni_ar_eg.json); neutral topics only.
+
+ar_aurora	FLEURS ar_eg id 1767	ar_eg/test/1312592379649713976.wav
+ar_italian	FLEURS ar_eg id 1807	ar_eg/test/3070111730550518915.wav
+ar_tourism	FLEURS ar_eg id 1768	ar_eg/test/2997143058639217377.wav
+ar_travel	FLEURS ar_eg id 1818	ar_eg/test/14804720736199866920.wav
+ar_transport	FLEURS ar_eg id 1797	ar_eg/test/7748741676830750241.wav
