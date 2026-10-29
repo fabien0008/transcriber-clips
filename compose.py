@@ -47,6 +47,22 @@ HOOKS = {
     "ar_tourism": "كلام عربي يصبح نصًا.\nبدون إنترنت.",
     "ar_travel": "تحويل الكلام إلى نص.\nبدون حساب.",
     "ar_transport": "وضع الطيران مفعّل.\nوالنص يظهر رغم ذلك.",
+    # Turkish, Indonesian, Hindi (2026-10-29): same recipe as Arabic, FLEURS + the free accuracy pack.
+    "tr_polo": "Uçak modu açık.\nYine de yazıya döküyor.",
+    "tr_science": "Kaydın yazıya dönüşüyor.\nSes telefonunda kalıyor.",
+    "tr_catalan": "Türkçe konuşma yazıya dönüşüyor.\nİnternetsiz.",
+    "tr_spanish": "Sesten yazıya.\nHesap gerekmez.",
+    "tr_taxes": "Uçak modu açık.\nMetin yine de çıkıyor.",
+    "id_satellite": "Mode pesawat aktif.\nTetap bisa transkripsi.",
+    "id_ai": "Rekamanmu jadi teks.\nAudionya tetap di ponselmu.",
+    "id_egypt": "Suara bahasa Indonesia jadi teks.\nTanpa internet.",
+    "id_swim": "Ucapan jadi teks.\nTanpa akun.",
+    "id_wheels": "Mode pesawat aktif.\nTeksnya tetap muncul.",
+    "hi_pencil": "एयरप्लेन मोड चालू है।\nफिर भी आवाज़ टेक्स्ट बन रही है।",
+    "hi_controller": "आपकी रिकॉर्डिंग से टेक्स्ट।\nआवाज़ आपके फ़ोन पर ही रहती है।",
+    "hi_birds": "हिंदी बोलें, टेक्स्ट पाएँ।\nबिना इंटरनेट।",
+    "hi_weather": "बोली हुई बात टेक्स्ट में।\nबिना अकाउंट।",
+    "hi_goats": "एयरप्लेन मोड चालू है।\nटेक्स्ट फिर भी आ गया।",
 }
 L10N = {  # on-video "done" line, end-card line, link-in-bio line
     "en": ("Transcribed 100% on the phone", "Free on Google Play", "Link in bio"),
@@ -55,12 +71,15 @@ L10N = {  # on-video "done" line, end-card line, link-in-bio line
     "pt": ("Transcrito 100% no celular", "Grátis no Google Play", "Link na bio"),
     # Arabic needs the free accuracy pack for this quality: the done line says so, never implied.
     "ar": ("تم التحويل على الهاتف بحزمة الدقة المجانية", "مجاني على Google Play", "الرابط في البايو"),
+    "tr": ("Ücretsiz doğruluk paketiyle telefonda yazıya döküldü", "Google Play'de ücretsiz", "Bağlantı profilde"),
+    "id": ("Ditranskripsi di ponsel dengan paket akurasi gratis", "Gratis di Google Play", "Tautan di bio"),
+    "hi": ("मुफ़्त सटीकता पैक से फ़ोन पर ही ट्रांसक्राइब हुआ", "Google Play पर मुफ़्त", "लिंक बायो में"),
 }
-CREDITS = {"ar": "Audio: FLEURS (Google), CC BY 4.0"}   # FLEURS needs attribution; LibriVox is public domain
+CREDITS = {l: "Audio: FLEURS (Google), CC BY 4.0" for l in ("ar", "tr", "id", "hi")}   # FLEURS needs attribution; LibriVox is public domain
 CREDIT = "Audio: LibriVox (public domain)"
 # Arabic segments: FLEURS ar_eg utterances the pack transcribes with 0 character errors (eval_omni_ar_eg.json),
 # neutral topics only; the reference text, to refuse a capture whose on-device text differs.
-SEG_DIRS = {"ar": "seg_ar"}
+SEG_DIRS = {l: f"seg_{l}" for l in ("ar", "tr", "id", "hi")}
 
 # Caption = TITLE line + body. basikcode-social's youtube.py uses the first line as the YouTube
 # title (+ " #shorts", cut at ~90 chars), and TikTok shows it first too — so it must be a
@@ -114,6 +133,68 @@ CAPTIONS = {
                      "حتى بدون إنترنت، يكتب الهاتف ما يقال. Speech to Text Offline يعمل على جهازك، والتسجيل الصوتي "
                      "لا يغادره.",
                      "#تحويل_الصوت_إلى_نص #تفريغ_صوتي #مواصلات #بدون_انترنت #خصوصية #اندرويد"),
+    "tr_polo": ("Uçak modunda sesten yazıya ✈️ Arjantin ve polo 🐎",
+                "Arjantin ve polo hakkında bir cümle, telefonda internetsiz yazıya döküldü. Speech to Text Offline konuşmayı "
+                "telefonunda yazıya çevirir, ses kaydın telefondan çıkmaz. Türkçe için uygulamada ücretsiz bir doğruluk paketi var.",
+                "#sestenyazıya #transkripsiyon #polo #internetsiz #gizlilik #android"),
+    "tr_science": ("Bilimin temel amacı 🔬 telefonda sesten yazıya",
+                   "Bu metni telefon kendisi yazdı, internet olmadan. Sesli notlar, dersler ve toplantılar cihazında yazıya "
+                   "dönüşür, ses orada kalır.",
+                   "#sestenyazıya #bilim #dersnotu #seslinot #internetsiz #android"),
+    "tr_catalan": ("Katalanca tabelalar 🪧 internetsiz sesten yazıya",
+                   "Uçak modunda bir Türkçe cümle telefonda yazıya döküldü ✈️. Uygulama ücretsiz, Türkçe için doğruluk "
+                   "paketi bir kez indirilir.",
+                   "#sestenyazıya #transkripsiyon #diller #internetsiz #gizlilik #android"),
+    "tr_spanish": ("Üç asır süren koloni dönemi 📜 konuşma yazıya dönüşüyor",
+                   "Ses kaydın doğrudan telefonunda yazıya dönüşür, hesap ve internet gerekmez. Sesli mesajlar, dersler ve "
+                   "röportajlar için kullanışlı.",
+                   "#sestenyazıya #tarih #seslimesaj #internetsiz #ders #android"),
+    "tr_taxes": ("Vergi ve tarifeler 🏛️ uçak modunda sesten yazıya",
+                 "İnternet olmasa bile telefon söyleneni yazıyor. Speech to Text Offline cihazında çalışır, ses kaydın oradan "
+                 "çıkmaz.",
+                 "#sestenyazıya #transkripsiyon #tarih #internetsiz #gizlilik #android"),
+    "id_satellite": ("Ubah suara jadi teks dalam mode pesawat ✈️ Satelit di luar angkasa 🛰️",
+                     "Kalimat tentang satelit ini ditulis oleh ponsel sendiri, tanpa internet. Speech to Text Offline mengubah "
+                     "ucapan jadi teks di ponselmu, dan rekaman suaramu tidak pernah keluar dari situ. Untuk bahasa Indonesia "
+                     "ada paket akurasi gratis di dalam aplikasi.",
+                     "#suarajaditeks #transkripsi #satelit #tanpainternet #privasi #android"),
+    "id_ai": ("Riset kecerdasan buatan 🤖 suara jadi teks di ponsel",
+              "Teks ini ditulis ponsel dari rekaman, tanpa internet. Catatan suara, kuliah, dan rapat jadi teks di perangkatmu, "
+              "audionya tetap di sana.",
+              "#suarajaditeks #kecerdasanbuatan #catatankuliah #catatansuara #tanpainternet #android"),
+    "id_egypt": ("Monumen Mesir kuno 🏛️ transkripsi suara tanpa internet",
+                 "Satu kalimat bahasa Indonesia jadi teks di ponsel dalam mode pesawat ✈️. Aplikasinya gratis, dan paket akurasi "
+                 "untuk bahasa Indonesia cukup diunduh sekali.",
+                 "#suarajaditeks #transkripsi #sejarah #tanpainternet #privasi #android"),
+    "id_swim": ("Keluar dari arus, berenang jadi mudah 🌊 ucapan jadi teks",
+                "Rekaman suara langsung jadi teks di ponselmu, tanpa akun dan tanpa internet. Berguna untuk pesan suara, "
+                "pelajaran, dan wawancara.",
+                "#suarajaditeks #pesansuara #pantai #tanpainternet #belajar #android"),
+    "id_wheels": ("Roda kayu dan besi 🛞 suara jadi teks dalam mode pesawat",
+                  "Tanpa internet pun, ponsel menulis apa yang diucapkan. Speech to Text Offline bekerja di perangkatmu, dan "
+                  "rekaman suaramu tidak keluar dari situ.",
+                  "#suarajaditeks #transkripsi #sejarah #tanpainternet #privasi #android"),
+    "hi_pencil": ("एयरप्लेन मोड में आवाज़ से टेक्स्ट ✈️ जब पेंसिल आई ✏️",
+                  "पेंसिल के बारे में यह वाक्य फ़ोन ने खुद, बिना इंटरनेट, टेक्स्ट में बदला। Speech to Text Offline आपकी बोली "
+                  "को आपके फ़ोन पर ही टेक्स्ट में बदलता है, और आपकी रिकॉर्डिंग फ़ोन से बाहर नहीं जाती। हिंदी के लिए ऐप में "
+                  "मुफ़्त सटीकता पैक है।",
+                  "#आवाज़सेटेक्स्ट #speechtotext #हिंदी #बिनाइंटरनेट #प्राइवेसी #android"),
+    "hi_controller": ("हवा में घुमाकर खेलने वाला कंट्रोलर 🎮 फ़ोन पर आवाज़ से टेक्स्ट",
+                      "यह टेक्स्ट फ़ोन ने रिकॉर्डिंग से खुद लिखा, बिना इंटरनेट। वॉइस नोट, क्लास और मीटिंग आपके डिवाइस पर ही "
+                      "टेक्स्ट बनते हैं, आवाज़ वहीं रहती है।",
+                      "#आवाज़सेटेक्स्ट #गेमिंग #वॉइसनोट #बिनाइंटरनेट #पढ़ाई #android"),
+    "hi_birds": ("टी-रेक्स की तरह दो पैरों पर 🦖 बिना इंटरनेट ट्रांसक्रिप्शन",
+                 "एयरप्लेन मोड में एक हिंदी वाक्य फ़ोन पर टेक्स्ट बना ✈️। ऐप मुफ़्त है, और हिंदी का सटीकता पैक एक बार "
+                 "डाउनलोड करना होता है।",
+                 "#आवाज़सेटेक्स्ट #ट्रांसक्रिप्शन #विज्ञान #बिनाइंटरनेट #प्राइवेसी #android"),
+    "hi_weather": ("आंधी, ओले और भारी बारिश ⛈️ बोली हुई बात टेक्स्ट में",
+                   "आपकी रिकॉर्डिंग सीधे आपके फ़ोन पर टेक्स्ट बनती है, बिना अकाउंट और बिना इंटरनेट। वॉइस मैसेज, क्लास और "
+                   "इंटरव्यू के लिए काम का।",
+                   "#आवाज़सेटेक्स्ट #मौसम #वॉइसमैसेज #बिनाइंटरनेट #पढ़ाई #android"),
+    "hi_goats": ("10,000 साल पहले बकरी पालन 🐐 एयरप्लेन मोड में आवाज़ से टेक्स्ट",
+                 "इंटरनेट न हो तब भी फ़ोन बोली हुई बात लिख देता है। Speech to Text Offline आपके डिवाइस पर काम करता है, और "
+                 "आपकी रिकॉर्डिंग वहाँ से बाहर नहीं जाती।",
+                 "#आवाज़सेटेक्स्ट #इतिहास #ट्रांसक्रिप्शन #बिनाइंटरनेट #प्राइवेसी #android"),
     "pt_azevedo": ("Voz para texto em modo avião ✈️ Um conto de Aluísio Azevedo 🚢",
                    "Um passageiro de 25 anos deixa o camarote… O Speech to Text Offline transforma voz em texto no "
                    "seu próprio celular: seu áudio nunca sai dele. Funciona offline em dezenas de idiomas.",
@@ -121,8 +202,9 @@ CAPTIONS = {
 }
 
 
-def font(size, bold=True, arabic=False):
-    name = f"NotoSansArabic-{'Bold' if bold else 'Regular'}" if arabic else f"NotoSans-{'Bold' if bold else 'Regular'}"
+def font(size, bold=True, arabic=False, script=None):
+    script = "Arabic" if arabic else script
+    name = f"NotoSans{script or ''}-{'Bold' if bold else 'Regular'}"
     for p in ([f"/usr/share/fonts/truetype/noto/{name}.ttf",
                f"/usr/share/fonts/truetype/dejavu/DejaVuSans{'-Bold' if bold else ''}.ttf"]):
         if Path(p).exists():
@@ -131,6 +213,7 @@ def font(size, bold=True, arabic=False):
 
 
 ARABIC = re.compile(r"[\u0600-\u06FF]")
+DEVANAGARI = re.compile(r"[\u0900-\u097F]")
 
 
 def runs(line, size, bold=True):
@@ -138,6 +221,10 @@ def runs(line, size, bold=True):
     Latin letters and Noto Sans no Arabic, so a mixed line ("مجاني على Google Play") is drawn run by
     run; raqm shapes each Arabic run (joined letters, right to left). An Arabic line reads right to
     left, so its runs are laid out in reverse."""
+    if DEVANAGARI.search(line):
+        # Noto Sans Devanagari has no Latin letters either; left to right, so runs keep their order.
+        parts = [p for p in re.split(r"([A-Za-z][A-Za-z0-9 .%:,()'-]*[A-Za-z0-9%)])", line) if p.strip()]
+        return [(p.strip(), font(size, bold, script="Devanagari" if DEVANAGARI.search(p) else None), "ltr") for p in parts]
     if not ARABIC.search(line):
         return [(line, font(size, bold), None)]
     parts = [p for p in re.split(r"([A-Za-z][A-Za-z0-9 .%:,()-]*[A-Za-z0-9%)])", line) if p]
@@ -185,7 +272,7 @@ def hook_png(text, path):
     d.rounded_rectangle((60, top, W - 60, top + box_h), radius=36, fill=(20, 20, 20, 215))
     text_block(d, text, f, top + 40, (255, 255, 255, 255))
     if "✈" in text or "vion" in text.lower() or "irplane" in text or "avião" in text.lower() or "avión" in text.lower() \
-            or "الطيران" in text:
+            or "الطيران" in text or "Uçak modu" in text or "Mode pesawat" in text or "एयरप्लेन" in text:
         # The claim's proof is the real status-bar airplane icon (x≈943, y≈33 at 1080 wide),
         # too small to notice on a phone without a pointer.
         cx, cy, r = 943, 34, 38
@@ -209,14 +296,23 @@ def free_band_top(frame, x0, x1, bh, want=330):
 def done_png(text, path, frame=None):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    size = 50
-    while size > 30 and line_width(d, text, size) > W - 2 * 130:
+    size, lines = 50, [text]
+    while size > 40 and line_width(d, text, size) > W - 2 * 130:
         size -= 2   # fit inside the band ("Transcrit à 100 % sur le téléphone" overflowed)
-    bh = size + 60
-    tw = line_width(d, text, size)
+    if line_width(d, text, size) > W - 2 * 130:
+        # Still too wide at a readable size (Turkish, Indonesian done lines): two balanced lines.
+        words = text.split()
+        k = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
+        lines, size = [" ".join(words[:k]), " ".join(words[k:])], 48
+        while size > 34 and max(line_width(d, l, size) for l in lines) > W - 2 * 130:
+            size -= 2
+    lh = size + 14
+    bh = len(lines) * lh + 46
+    tw = max(line_width(d, l, size) for l in lines)
     top = free_band_top(frame, (W - tw) / 2 - 60, (W + tw) / 2 + 60, bh) if frame else 330
-    d.rounded_rectangle(((W - tw) / 2 - 50, top, (W + tw) / 2 + 50, top + bh), radius=bh // 2, fill=TEAL + (240,))
-    draw_line(d, (W - tw) / 2, top + 26, text, size, (255, 255, 255, 255))
+    d.rounded_rectangle(((W - tw) / 2 - 50, top, (W + tw) / 2 + 50, top + bh), radius=min(bh // 2, 48), fill=TEAL + (240,))
+    for n, l in enumerate(lines):
+        draw_line(d, (W - line_width(d, l, size)) / 2, top + 23 + n * lh, l, size, (255, 255, 255, 255))
     img.save(path)
 
 
@@ -273,14 +369,18 @@ def detect_text_time(rec, t_open, t_done):
     return t_open + (hit[0] / fps if len(hit) else (t_done - t_open))
 
 
-def norm_ar(t):
-    """Arabic text compared the way readers see it: no diacritics/tatweel, alef/ya/ta-marbuta variants,
-    no punctuation (the pack writes none; the reference has some)."""
+def norm_ar(t, lang="ar"):
+    """On-screen text compared the way readers see it: no diacritics/tatweel, alef/ya/ta-marbuta variants,
+    no case, no punctuation (the pack writes none; the reference has some). Turkish dotted/dotless i are
+    folded first (Python's lower() turns İ into i + a combining dot). Devanagari vowel signs are kept."""
     import unicodedata
     t = unicodedata.normalize("NFKC", t)
+    if lang == "tr":
+        t = t.replace("İ", "i").replace("I", "ı")
+    t = t.lower()
     t = re.sub(r"[\u064B-\u0652\u0640]", "", t); t = re.sub(r"[إأآ]", "ا", t).replace("ى", "ي").replace("ة", "ه")
     t = re.sub(r"\[[0-9:]+\]", " ", t)                 # timestamps, if the setting was on
-    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", t)).strip()
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s\u0900-\u0963\u0966-\u097F]", " ", t)).strip()
 
 
 def compose(cid, capture, month, idx, tmp):
@@ -290,7 +390,7 @@ def compose(cid, capture, month, idx, tmp):
     ref = HERE / SEG_DIRS.get(lang, "seg") / f"{cid}.txt"
     if ref.exists():
         # A showcase: the text on screen must be exactly what was said (Fabien, 2026-10-23: "très vigilant").
-        got, want = norm_ar(meta["transcript"]), norm_ar(ref.read_text(encoding="utf-8"))
+        got, want = norm_ar(meta["transcript"], lang), norm_ar(ref.read_text(encoding="utf-8"), lang)
         if got != want:
             sys.exit(f"{cid}: on-screen text differs from the reference, clip refused\n  got:  {got}\n  want: {want}")
     wav = HERE / SEG_DIRS.get(lang, "seg") / f"{cid}.wav"
@@ -349,10 +449,15 @@ def main():
     ap.add_argument("--only")
     ap.add_argument("--manifest-only", action="store_true", help="rewrite captions; keep the rendered clips")
     a = ap.parse_args()
-    # Interleave languages so consecutive posts differ.
-    order = ["en_wind_a", "es_flamencos_a", "fr_verne", "en_wind_b", "pt_azevedo", "es_flamencos_b", "en_wind_c",
-             # Arabic, appended so the published file names (NN_<id>) of the clips above never change.
-             "ar_aurora", "ar_italian", "ar_tourism", "ar_travel", "ar_transport"]
+    # One order per month; languages interleaved so consecutive posts differ. A month's list is only ever
+    # appended to, so the published file names (NN_<id>) never change.
+    orders = {
+        "2026-11": ["en_wind_a", "es_flamencos_a", "fr_verne", "en_wind_b", "pt_azevedo", "es_flamencos_b", "en_wind_c",
+                    "ar_aurora", "ar_italian", "ar_tourism", "ar_travel", "ar_transport"],
+        "2026-12": ["tr_polo", "hi_pencil", "id_satellite", "tr_science", "hi_controller", "id_ai", "tr_catalan",
+                    "hi_birds", "id_egypt", "tr_spanish", "hi_weather", "id_swim", "tr_taxes", "hi_goats", "id_wheels"],
+    }
+    order = orders[a.month]
     tmp = HERE / ".tmp"; tmp.mkdir(exist_ok=True)
     rows = []
     for i, cid in enumerate(order, 1):

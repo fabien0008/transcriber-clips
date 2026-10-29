@@ -1,0 +1,10 @@
+Indonesian segments: FLEURS (Google), id_id test/dev/train split, CC BY 4.0.
+https://huggingface.co/datasets/google/fleurs
+Chosen because the app's accuracy pack (Omnilingual 300M int8) transcribes them with 0 character errors
+(eval: ~/dev/repos/transcriber-clips/eval_omni_id_id.json); neutral topics only.
+
+id_satellite	FLEURS id_id id 1521	id_id/dev/9208729967654104507.wav
+id_ai	FLEURS id_id id 1517	id_id/dev/17934441185830538175.wav
+id_egypt	FLEURS id_id id 1631	id_id/dev/6710007466647259459.wav
+id_swim	FLEURS id_id id 1560	id_id/dev/13186005147721817162.wav
+id_wheels	FLEURS id_id id 1562	id_id/dev/8907202116760567555.wav

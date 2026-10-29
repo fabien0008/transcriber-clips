@@ -1,0 +1,1162 @@
+[
+ {
+  "id": "1658",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/3453892295047654520.wav",
+  "dur": 8.2,
+  "cer": 0.101,
+  "ref": "Günde sadece on sekiz tane madalya alınma imkanı olduğu için birkaç ülke madalya sahnesine çıkmayı başaramadı.",
+  "hyp": "günde sadece 1 8 tannı madalya alınma inkanı olduğu için bir kaç ülke madalya sahnesine çıkmayı başaramadı"
+ },
+ {
+  "id": "1520",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1769100820085484549.wav",
+  "dur": 12.1,
+  "cer": 0.091,
+  "ref": "2010 federal seçimlerinden önce 1.400 kişiyle yapılan ankete göre Avustralya'nın cumhuriyet olmasına karşı çıkanların sayısı 2008'den bu yana yüzde 8 oranında arttı.",
+  "hyp": "201 federal seçimlerinden önce 14 yüstü kişiyle yapılan ankete göre australya'nın cumhuriyet olmasına karşı çıkanlarını sayısı 208'den bu yana 1üzde8 zorununda arttı"
+ },
+ {
+  "id": "1592",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/6370025475231191052.wav",
+  "dur": 11.6,
+  "cer": 0.068,
+  "ref": "İlk başta yurtdışına gittiğinizde, insanlar muhtemelen sabırlı ve anlayışlı olurlar, yeni bir ülkedeki yolcuların uyum sağlaması gerektiğini bilirler.",
+  "hyp": "i̇lk başla yurt dışınıda gittiğinizde insanlar muhtemenel sabırlı ve anla işte olurlar yeni bir ülkedeki yolcuların uyum sağlaması gerektiğini birirler"
+ },
+ {
+  "id": "1646",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1346256009119966937.wav",
+  "dur": 8.7,
+  "cer": 0.09,
+  "ref": "Auckland'ın iki limanın ortasında olması nedeniyle birçok plaj var. En popüler olanları üç bölgededir.",
+  "hyp": "auklandın 2ki millamanın ortasında olması nedeniyle birçok plaj var en popüler olanları üç bölgüledir"
+ },
+ {
+  "id": "1598",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11691753474305712919.wav",
+  "dur": 6.7,
+  "cer": 0.062,
+  "ref": "Araba çarptığında evde üç kişi vardı, ancak hiçbiri zarar görmedi.",
+  "hyp": "araba çarptığında evde üç kişi vardı ancak hiçpirezarar görmediz"
+ },
+ {
+  "id": "1610",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/7526071826895652382.wav",
+  "dur": 8.3,
+  "cer": 0.019,
+  "ref": "Bu becerilerin her biri, gerçek hayatın sorunlarına çözüm sağlamaya odaklanan ayrı disiplinler haline geldi.",
+  "hyp": "bu becerilerini her biri gerçek hayatıın sorunlarına çözüm sağlamaya odaklanan ayrı disiplinler haline geldi"
+ },
+ {
+  "id": "1538",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17796961348158723577.wav",
+  "dur": 14.4,
+  "cer": 0.086,
+  "ref": "Point Marlon ve Fairmont arasındaki arazi, sık sık tenha, geri kalmış bölgelerden geçen Buffalo-Pittsburgh Otoyolu'nun en zorlu sürüş koşullarını sunuyor.",
+  "hyp": "point marlon fayrmont arasındaki arazi ve sık sık tenha geri kalmış bölgelerden geçen bufolo pisburg otoyolu'nun en zorlu sürüç koşullarını sunuyor"
+ },
+ {
+  "id": "1568",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13112273879309658180.wav",
+  "dur": 19.0,
+  "cer": 0.013,
+  "ref": "Özellikle Romani olmayanlar arasında yaygın biçimde kullanılsa da \"Çingene\" kelimesi Romani halkına dair olumsuz kalıpyargılar ve doğru olmayan algılarla ilişkilendirilmiş olması nedeniyle genellikle saldırgan olarak kabul edilir.",
+  "hyp": "özellikle romani olmayanlar arasında yaygın biçimle kullanınsa da çingene kelimesi romani halkına dair olumsuz kalıp yargılar ve doğru olmayan algılarla ilişkilendirilmiş olması nedeniyle genellikle saldırgan olarak kabul edilir"
+ },
+ {
+  "id": "1562",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13632490477338165461.wav",
+  "dur": 11.0,
+  "cer": 0.018,
+  "ref": "Bu yaygın bir uygulama haline geldi, ancak demir vagonların ahşap tekerleklerinde daha fazla aşınmaya neden oldu.",
+  "hyp": "bu yaygın bir uygulama haline geldi ancak demir vagonların aşap tekerliklerinde daha fazla aşınmaya neden oldu"
+ },
+ {
+  "id": "1536",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12242374106497666751.wav",
+  "dur": 11.3,
+  "cer": 0.007,
+  "ref": "Yerel merciler, tesisin etrafında oturanları kapalı mekanlarda durmaları, klimaları kapamaları ve çeşme suyu içmemeleri konusunda ikaz ediyor.",
+  "hyp": "yerel merciler tessisin etrafında oturanları kapalı mekanlarda durmaları klimaları kapamaları ve çeşme suyu içmemeleri konusunda ikaz ediyor"
+ },
+ {
+  "id": "1519",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11328698946314215234.wav",
+  "dur": 12.6,
+  "cer": 0.052,
+  "ref": "Çoğunlukla boş yıl için yurt dışında bir kursa kayıt yaptırmak aslında kendi ülkenizde yüksek öğrenime geri dönme şansınızı artırabilir.",
+  "hyp": "çoğunlukla boş yıl için yurt dışında bir kursak hayet yaptırmak aslına kendi ülkenizde yüksek öğrenime geli dönmeşansınıza artırabilir"
+ },
+ {
+  "id": "1657",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/602812882332095246.wav",
+  "dur": 7.5,
+  "cer": 0.054,
+  "ref": "Herhangi bir değişiklik veya talep, doğrudan otele değil, önce seyahat acentesine iletilmelidir.",
+  "hyp": "her hangi bir değişiklik veya talep doğrudan otele değil önce seyahat acanitesine illetirmelidir"
+ },
+ {
+  "id": "1611",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1705191957517995031.wav",
+  "dur": 15.9,
+  "cer": 0.014,
+  "ref": "Bilim insanları, bu hayvanın tüylerinin gövdenin alt kısmında soluk veya karotenoid renkli, üst kısmında ise kestane-kahverengi olduğunu söylüyor.",
+  "hyp": "bilim insanları bu hayvanın tüylerinin gövdenin alt kısmında soluk veya karetenoit renkli üst kısmında ise kestane kahverengi olduğunu söylüyor"
+ },
+ {
+  "id": "1569",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/9850965426537498433.wav",
+  "dur": 12.4,
+  "cer": 0.016,
+  "ref": "Rapor, Amerika Birleşik Devletleri'nde Ortadoğu'ya karşı politika hakkında açık bir müzakere ve bir uzlaşma istemiyle başlıyor.",
+  "hyp": "rapor amerika birleşik devletlerinde ortadoğuya karşı politika hakkında açık bir müzakere ve bir uzlaşma istemiyle başlıyor"
+ },
+ {
+  "id": "1605",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8119357557852589985.wav",
+  "dur": 10.5,
+  "cer": 0.09,
+  "ref": "Anakaraya olan uzaklıktan dolayı memeliler yolculuğa çıkamadılar, bu da dev kaplumbağayı Galapagos'ta otlayan ana hayvan haline getirdi.",
+  "hyp": "ana karaya olan uzaklıktan dolayı memeriler yolculağa çıkamadı lar bu da dev kaplunbayı galapa gosta otlayan ana hayvan arine getiri"
+ },
+ {
+  "id": "1590",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8682679568734313411.wav",
+  "dur": 12.4,
+  "cer": 0.094,
+  "ref": "Başlıca yerel birası 'Number One'dır. Çok karmaşık bir bira olmasa da hoş ve ferahlatıcıdır. Diğer yerel birasının adı da \"Manta\"dır.",
+  "hyp": "başaca yerel birası number wandır çok karmaşık birbira olmasa da hoş ve ferahladıcılır diğer yerel biranın adı da mantadır"
+ },
+ {
+  "id": "1603",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/16057642294146527469.wav",
+  "dur": 14.2,
+  "cer": 0.054,
+  "ref": "Hem sivil hem de askeri operasyonlarda kullanılan uçakların bakımının iyi yapılmadığı ve eski bir filoya sahip olan İran'da hava kazaları sıklıkla meydana gelmektedir.",
+  "hyp": "hem sivil hem de askerii operasyonlarda kullanından uçakların bakımının eyi yapılmadığı ve eski bir filoye sahip olan iranda hava kazarları sıklık la meydana gelmektedir"
+ },
+ {
+  "id": "1548",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/2283174800734568885.wav",
+  "dur": 13.1,
+  "cer": 0.019,
+  "ref": "Binlerce kilometre uzağınızda yaşayan birisini aradığınız zaman bir uyduyu araç olarak kullanmış oluyorsunuz.",
+  "hyp": "1inlerce kilometre uzağınızda yaşayan birisini aradığınız zaman bir uyluyu araç olarak kullanmış oluyorsunuz"
+ },
+ {
+  "id": "1609",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10133249961902974299.wav",
+  "dur": 10.7,
+  "cer": 0.138,
+  "ref": "11 dörtlük ve 2 altılık vurarak sadece 41 topta 70 run ile Robin Uthappa atışta en yüksek skoru elde etmiştir.",
+  "hyp": "114lük ve iki altılık burarak sadece kr bi topta 70 run ile robin uthapa atışta en yüksek skoru elde etmiştir"
+ },
+ {
+  "id": "1642",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/3661297866437528289.wav",
+  "dur": 13.6,
+  "cer": 0.024,
+  "ref": "ABD emperyalizminin Filipinler'i fethetmek için yaptığı savaş harcamaları Filipin halkının kendisi tarafından karşılanıyordu.",
+  "hyp": "abd emperyalizmenin filipinleri fet hetmek için yaptığı savaş harcamaları filipin halkının kendisi tarafından karşılanıyordu"
+ },
+ {
+  "id": "1521",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5002963843489574867.wav",
+  "dur": 9.7,
+  "cer": 0.028,
+  "ref": "Uzaydaki uydu, çağrıyı alır ve neredeyse anlık bir şekilde geri yansıtır.",
+  "hyp": "uzaydaki uydu çariyi alır ve neredeyse anlık bir şekilde geri yanstır"
+ },
+ {
+  "id": "1525",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14097046737672388223.wav",
+  "dur": 20.3,
+  "cer": 0.029,
+  "ref": "18. yüzyıl pazarı, tarihi camiler ve kiliseler ile şehir geleneksel Türkiye'den daha çok Akdeniz Avrupası havasına sahip olmasına rağmen geniş bulvarlar, cam binalar ve modern alışveriş merkezleri geleneksel kırmızı kiremitli çatılarla çevrilidir.",
+  "hyp": "18yü0 yıl pazarı tarihi camiler ve kiliseler ile şehir geleneksel türkiye'den daha çok akdinız avrupası havasına sahip olmasına rağmen geniş bulvarlar cam binalar ve modern alışveriş merkezleri geleneksel karımızı kiremitli çatılarla çevirilidir"
+ },
+ {
+  "id": "1532",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/380873332198206097.wav",
+  "dur": 15.7,
+  "cer": 0.214,
+  "ref": "Baba Shyam'a 108 tabak Chhappan Bhog (Hinduizm inancında tanrıya ikram edilen tatlı, meyve, kuruyemiş, yemek vb. oluşan 56 farklı yiyecek) sunuldu.",
+  "hyp": "babaşıy ama 18 tabak şapbam bog hinnüüzim inancında tarnıya ikram edilen tatlı meyve kuriyemiş yemek ve benzeri oluşan 5 6lt farklı yiyecek sunuldu"
+ },
+ {
+  "id": "1534",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1417437887163874513.wav",
+  "dur": 12.7,
+  "cer": 0.024,
+  "ref": "Göreceli ulaşılmazlığıyla bir araya getirilince, \"Timbuktu\" egzotik, uzak diyarlar için bir metafor olarak kullanılmaya başlandı.",
+  "hyp": "göreceli olaşılmazlığıyla bir araya getirlince timbuktu ekzotik uzak diyarlar için bir metafor olarak kullanılmaya başlandı"
+ },
+ {
+  "id": "1577",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8106598958177798581.wav",
+  "dur": 5.3,
+  "cer": 0.016,
+  "ref": "Bu bana mantıklı gelmedi. Kesinlikle adil olmadığını düşünüyorum.",
+  "hyp": "bu bana mantıklı gelmedi kesilikle adil olmadığını düşünüyorum"
+ },
+ {
+  "id": "1510",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1328221729281331047.wav",
+  "dur": 9.6,
+  "cer": 0.042,
+  "ref": "BM ayriyeten, küresel ısınmadan etkilenen ülkelerin, küresel ısınmanın etkileriyle baş etmelerine yardımcı olacak bir fonu tamamlamayı ümit ediyor.",
+  "hyp": "bm airiyeten kürese ısınmadan etkilen ölkelerin kürese ısınmanın etkileriyle baş etmelerine yardımcı olacak bir fonu tamamlamayı ümit ediyor"
+ },
+ {
+  "id": "1578",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14796887750463013094.wav",
+  "dur": 10.0,
+  "cer": 0.081,
+  "ref": "Sonra, Lakkha Singh bhajans'ın söylenmesinde liderliği ele aldı.",
+  "hyp": "sonra laka sing bajans'ın söylenmesinde liderliğ ele aldı"
+ },
+ {
+  "id": "1523",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/15092340905476922678.wav",
+  "dur": 13.5,
+  "cer": 0.085,
+  "ref": "Son skor tek puan farklı bir galibiyetti. 21-20 ile All Blacks'in 15 maçlık galibiyet serisi sonlanmış oldu.",
+  "hyp": "son skor tek puan farklı bir galibiyetti 21 20 ile ol bloksun 15 maçlık galibiyet seviisi sonulanmış oldu"
+ },
+ {
+  "id": "1565",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12346510672201321739.wav",
+  "dur": 13.7,
+  "cer": 0.0,
+  "ref": "Bilimin temel amacı, bilimsel yöntemle dünyanın nasıl işlemekte olduğunu ortaya çıkarmaktır. Bu yöntem aslında çoğu bilimsel araştırmaya yön gösterir.",
+  "hyp": "bilimin temel amacı bilimsel yöntemle dünyanın nasıl işlemekte olduğunu ortaya çıkarmaktır bu yöntem aslında çoğu bilimsel araştırmaya yön gösterir"
+ },
+ {
+  "id": "1516",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/16947900499193493655.wav",
+  "dur": 11.6,
+  "cer": 0.018,
+  "ref": "Lütfen kampa hak ettiği tüm haysiyet, ciddiyet ve saygıyla davranın. Holokost veya Naziler hakkında şaka yapmayın.",
+  "hyp": "lütfen kampa hakettiği tüm haysiyet ciddiyet ve saygıyla davranın holokost veya nazilar hakkında şaka yapmayın"
+ },
+ {
+  "id": "1589",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10017444110191735282.wav",
+  "dur": 16.4,
+  "cer": 0.014,
+  "ref": "Bir alt kültürü ayrı olarak belirleyen nitelikler dilsel, estetik, dini, politik, cinsel, coğrafi veya çeşitli faktörlerin bir kombinasyonu olabilir.",
+  "hyp": "bir alt kültürü ayrı olurak belirleyen nitelikler dilsel estetik dini politik cinsel corafi veya çeşitli faktörlerin bir kombinasyonu olabilir"
+ },
+ {
+  "id": "1635",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/15010126615656199502.wav",
+  "dur": 14.9,
+  "cer": 0.018,
+  "ref": "Çevreye karşı daha duyarlı yaşamaya başlayabilir, çevrecilik hareketlerine katılabilir, hatta geleceğin sorunlarını biraz olsun azaltabilmek için aktivist bile olabiliriz.",
+  "hyp": "çevreye karşı daha duyarlığı yaşamaya başlayabilir çevrecilik hareketlerine katılabilir hatta gereceğin sorunlarını biraz olsun azaltabilmek için aktivist bile olabiliriz"
+ },
+ {
+  "id": "1636",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/2518371982087739212.wav",
+  "dur": 9.4,
+  "cer": 0.0,
+  "ref": "İspanyollar üç asır süren kolonileşme dönemini başlattı.",
+  "hyp": "i̇spanyollar üç asır süren kolonileşme dönemini başlattı"
+ },
+ {
+  "id": "1644",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11880304922524571314.wav",
+  "dur": 11.1,
+  "cer": 0.023,
+  "ref": "Yorumu sorulduğunda Miller, \"Mike duruşma sırasında çok konuşuyor... Ben hazırlanıyordum o yüzden ne dediğini tam olarak duyamadım,\" dedi.",
+  "hyp": "yorumu sorulduğunda miller myke duruşma sırasında çok konuşuyor ben hazırlanıyordum o yüzden nederiğini tam olarak duyamadım dedi"
+ },
+ {
+  "id": "1645",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4054300649762415880.wav",
+  "dur": 8.9,
+  "cer": 0.016,
+  "ref": "Her yeri saran gücü, kraldan avam tabakaya kadar herkesi etkiledi.",
+  "hyp": "her yeri saran gücü kraldan avam tabaka'ya kadar herkesi etkiledi"
+ },
+ {
+  "id": "1640",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12467463353432503294.wav",
+  "dur": 12.1,
+  "cer": 0.043,
+  "ref": "Buzlanmış ve karlı yollarda sürtünme oldukça düşüktür ve kuru asfalt üzerindeymiş gibi araç sürmeniz mümkün değildir.",
+  "hyp": "buzlanmış ve karlıyollarda sürtünmü oldukça düşüktür ve kuru asvalt üzerindeymiş gibi araç türmeniz mümkün değilir"
+ },
+ {
+  "id": "1533",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/2867054415942973641.wav",
+  "dur": 11.9,
+  "cer": 0.034,
+  "ref": "Birçok yaygın biçim (örneğin APS biçim ailesi) bu en-boy oranına eşittir veya çok yakındır.",
+  "hyp": "birçok yaygın biçim örneğin aps biçim hailesi bu en bo yoranına eşittir veya çok yakındır"
+ },
+ {
+  "id": "1595",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10986896659763664407.wav",
+  "dur": 13.6,
+  "cer": 0.028,
+  "ref": "Tibet Budizmi, Buda'nın öğretilerine dayanan, ancak mahayana sevgi yolu ile ve Hint Yogasından alınan birçok teknikle genişletilen bir öğretidir.",
+  "hyp": "tibet budizmi budanın öğretilerine dayanan ancak mahayana sevgi yoğlu ile ve hint yogasından alınan birçok teknikle gelişiletilen bir öğretidir"
+ },
+ {
+  "id": "1641",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12434292666087708426.wav",
+  "dur": 9.7,
+  "cer": 0.043,
+  "ref": "Fakat ormanlar sadece mangrov bataklıkları değildir - Ganj ovasını bir zamanlar kaplayan büyük ormanların kalan son parçalarını da içerirler.",
+  "hyp": "fakat ormanlar sadece bank robataklıkları değildir ganj ovasını bir zamanlar kaplayan büyük ormanların kalan son parçalarını da içirirler"
+ },
+ {
+  "id": "1593",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12520554472161767274.wav",
+  "dur": 12.5,
+  "cer": 0.044,
+  "ref": "Sonuç olarak, ağaçtan yapılmış tekerleklerin yerini demir tekerlekler aldı. 1767'de, tamamen demirden yapılma ilk raylar kullanıma sokuldu.",
+  "hyp": "sonuç olarak ağaçtan yapılmış tekerleklerin yerini demir tekerlekler aldı 176 yeride tamamen demirden yapılma ilk raylar kullanıma sukuldu"
+ },
+ {
+  "id": "1582",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/18335852630817656039.wav",
+  "dur": 9.2,
+  "cer": 0.0,
+  "ref": "İbrani ailesinin yaşamının çoğu açık havada geçiyordu.",
+  "hyp": "i̇brani ailesinin yaşamının çoğu açık havada geçiyordu"
+ },
+ {
+  "id": "1639",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/6404128251673014785.wav",
+  "dur": 12.2,
+  "cer": 0.017,
+  "ref": "En eleştirel kitle genelde öğrenciler olduğundan blog yazarları eleştiriden kaçınmak için yazısını geliştirmeye çalışır.",
+  "hyp": "en eleştirel kitle genelde öğrenciler olduğundan blok gazarları eleştiriden kaçınmak için yazısını geliştirmeye çalışır"
+ },
+ {
+  "id": "1549",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/910452159945677762.wav",
+  "dur": 11.5,
+  "cer": 0.006,
+  "ref": "Söz konusu tezler, bireylerin, yetişkin oldukları döneme kadar olgunlaşırken, içselleştirilen belirli gereksinim ve/veya istekleri bulunduğunu ortaya koymaktadır.",
+  "hyp": "söz konusu tezler bireylerin yetişkin oldukları döneme kadar olgunlaşırken içselleştirilen belirli gereksinin ve veya istekleri bulunduğunu ortaya koymaktadır"
+ },
+ {
+  "id": "1654",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12955141885815578906.wav",
+  "dur": 7.4,
+  "cer": 0.032,
+  "ref": "Farkında mısın bilmiyorum ama Orta Amerika'dan gelen ürünlerin çoğu bu ülkeye gümrüksüz geldi.",
+  "hyp": "farkındamısın bilmiyorum ama orta amerika'dan gelen ürünlerin çoğu bu ülkeye gümrük yüz geldi"
+ },
+ {
+  "id": "1530",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11768754458470249195.wav",
+  "dur": 11.2,
+  "cer": 0.012,
+  "ref": "Salı günü kesilmesi planlanıyordu ama olağanüstü hal mahkemesi kararıyla kurtarıldı.",
+  "hyp": "salı günü kesilmesi planlanıyordu ama olağan üstü hal mahkemesi kararıyla kurtarıldı"
+ },
+ {
+  "id": "1602",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10765197836662613481.wav",
+  "dur": 16.1,
+  "cer": 0.067,
+  "ref": "Mallorca mutfağı, Akdeniz'deki benzer bölgelerde olduğu gibi ekmek, sebze ve ete (özellikle domuz etine) dayalıdır ve bütün yemeklerde zeytinyağı kullanır.",
+  "hyp": "mallor kamutfau akdinizdeki benzer bölgelerde olduğu gibi ekmek sebze ve et özellikle domuzetine dayalıdır ve bütün yemeklerde zeyitinyağı kullanır"
+ },
+ {
+  "id": "1626",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/7816657251518589088.wav",
+  "dur": 15.4,
+  "cer": 0.082,
+  "ref": "Olimpiyat altın madalya sahibinin 100m ve 200m serbest stil ve İngiliz Milletler Topluluğu Oyunlarında üç bayrak yarışında yüzmesi gerekiyordu fakat şikayetlerinden dolayı zindeliği şüphe altında.",
+  "hyp": "olimpiyat altın madalya sahibinin 1ü0 metre ve 200 metre serbes sitil ve i̇ngiliz milletler topluluğu uyunlarında üç bayrak yarışında yüzmesi gerekiyordu fakat işikayetlerinden dolayı zindeliği şüpe altında"
+ },
+ {
+  "id": "1576",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/18347331502335872486.wav",
+  "dur": 11.9,
+  "cer": 0.009,
+  "ref": "Bir kursta normalde burada tartışılan tüm konular, çoğunlukla pratik deneyimle ve çok daha ayrıntılı olarak anlatılır.",
+  "hyp": "bir kursda normalde burada tartışılan tüm konular çoğunlukla pratik deneyimle ve çok daha ayrıntılı olarak anlatılır"
+ },
+ {
+  "id": "1514",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14194596607432834008.wav",
+  "dur": 11.3,
+  "cer": 0.107,
+  "ref": "Yaralılar hastaneye nakledildikten sonra kavga sona erdiğinde, kalan diğer mahkumlardan yaklaşık 40 tanesi avluda kaldı ve hücrelerine dönmeyi reddetti.",
+  "hyp": "yarıllar hastanenin akl edirdikten sonra kavga sona erdiğinde kalan diğer mahkumlaran yaklaşık kırk tanesi avlula kallı ve hüccelerine dönmeyi reddetti"
+ },
+ {
+  "id": "1623",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17395406044129483603.wav",
+  "dur": 18.3,
+  "cer": 0.03,
+  "ref": "Maddelerin değiştirilebilmesi için tüm eyaletlerin oybirliğiyle rızasına gerek duyuluyordu ve eyaletler merkezi hükümeti o kadar hafife alıyorlardı ki temsilcileri genellikle görev başında değillerdi.",
+  "hyp": "maddelerin değiştirilebilmesi için tüm eyaletlerin oy birli ile rızasına gerek duyuluyordu ve eyaletler merkezi hükümeti o kadar hafife alıyorlarda ki temsizcileri genellikle görey başında değillerdi"
+ },
+ {
+  "id": "1537",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5663194856429759226.wav",
+  "dur": 10.2,
+  "cer": 0.011,
+  "ref": "Piramitleri karanlıkta görebilir ve gösteri başlamadan önce onları sessizce izleyebilirsiniz.",
+  "hyp": "piramitleri karanlıkta görebilir ve gösteri başlamada önce onları sessizce izleyebilirsiniz"
+ },
+ {
+  "id": "1526",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1713007005141059713.wav",
+  "dur": 11.5,
+  "cer": 0.061,
+  "ref": "Kış aylarında Kuzey Kutbu veya Antarktika bölgelerini ziyaret ederseniz kutup gecesini yaşarsınız, bu da güneşin ufkun üzerinde yükselmemesi demektir.",
+  "hyp": "kışaylarında kuzey kutbu veya antartika bölgeleriniz yartedersiniz kutup gecesini yaşarsınız bu da güneşin ufkun üzerinde yükselmemesisi demektir"
+ },
+ {
+  "id": "1591",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4042178977615027176.wav",
+  "dur": 16.0,
+  "cer": 0.117,
+  "ref": "Eski Meclis Sözcüsü Newt Gingrich, Teksas valisi Rick Perry ve Kongre Üyesi Michele Bachmann sırasıyla dördüncü, beşinci ve altıncı oldular.",
+  "hyp": "eski meclis sözcüsü nevt gingric teksas valesi rigperi ve kongre üyesi misher bahmun sırasıyla dördüncü 5eşinci ve atıncı oldular"
+ },
+ {
+  "id": "1566",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10509229732650122653.wav",
+  "dur": 11.3,
+  "cer": 0.099,
+  "ref": "Ürünlerimizin yüzde seksenlik bir bölümü Orta Amerika ülkelerindeki oranlar üzerinden vergilendirildi.",
+  "hyp": "ürünlerimizin 1ü'de 8l bir bölümü orta amerika ülkelerindeki oranlar üzerinden vergilendirildi"
+ },
+ {
+  "id": "1622",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14384826476459094569.wav",
+  "dur": 7.1,
+  "cer": 0.075,
+  "ref": "ABD Başkanı George W. Bush, açıklamayı olumlu karşıladı.",
+  "hyp": "abd başkanı george talbus açıklamayı olumlu karşıladı"
+ },
+ {
+  "id": "1542",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1120218841395403105.wav",
+  "dur": 13.6,
+  "cer": 0.067,
+  "ref": "Bush'un sözcüsü Gordon Johndroe Kuzey Kore'nin bu vaadini \"Kore yarımadasında kanıtlanabilir nükleer silahsızlandırmayı sağlama yolunda büyük bir adım\" olarak niteledi.",
+  "hyp": "buşun sözcüsü goordon jondro kuzey koreyının bu vadini kore yarımadasında kanıtlanabilir nükler silahsızlandırmayı sağlamayolunda büyük bir adım olarak niteledi"
+ },
+ {
+  "id": "1570",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4042207327218455244.wav",
+  "dur": 9.2,
+  "cer": 0.0,
+  "ref": "Vergi kanunlarını ve eyaletler arası tariflere geçersiz kılma yetkisi de yoktu.",
+  "hyp": "vergi kanunlarını ve eyaletler arası tariflere geçersiz kılma yetkisi de yoktu"
+ },
+ {
+  "id": "1608",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10181952646791408076.wav",
+  "dur": 15.4,
+  "cer": 0.061,
+  "ref": "Kız kardeşimi ve arkadaşını kaybettim. Yolda, insanların üzerlerinden atlayıp itip kaktığı tekerlekli sandalyeli iki engelli vardı.\" dedi Armand Versace.",
+  "hyp": "kız kardeşimi ve arkadaşını kayb ettim yolda insanlarının üzerinden aplayıp itip kaktığı tekerlekli sandalgili iki engelli vardı dedi armand versace"
+ },
+ {
+  "id": "1531",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/6724145021282657473.wav",
+  "dur": 5.9,
+  "cer": 0.071,
+  "ref": "Doğu Afrika Adaları, Hint Okyanusu'nda, doğu Afrika açıklarında yer alır.",
+  "hyp": "doğu afrika adaları hintok yanusunda doğu afrika açıklarında yaralır"
+ },
+ {
+  "id": "1628",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4660189333848974270.wav",
+  "dur": 12.0,
+  "cer": 0.018,
+  "ref": "El sanatı ürünleri, seri üretilen benzer ürünlerden daha yeni olmalarına rağmen antika olarak sınıflandırılabilir.",
+  "hyp": "er sanatı ürünleri seri üretilen benzer ürünlerden daha yeni olmalarına rağmen antika olarak sınıflandırlabilir"
+ },
+ {
+  "id": "1522",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10005228519380753710.wav",
+  "dur": 16.8,
+  "cer": 0.043,
+  "ref": "Teknoloji, çözümü sanal bir tur sunarak getirir. Öğrenciler müzedeki yapıları inceleyebilir, bir akvaryumu ziyaret edebilir veya sınıfta otururken güzel sanat eserlerinin büyüsüne kapılabilir.",
+  "hyp": "teknoloji çözümüz sanal bir tur sunarak getirir öğrenciler müzedeki yapıları inceleyebilir birak varlimü ziyaret edebilir veya sınıfta utururken güzel sanal eserlerinin büyüsüne kapılabilir"
+ },
+ {
+  "id": "1627",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14930240887076226399.wav",
+  "dur": 8.3,
+  "cer": 0.057,
+  "ref": "Antik Roma yemekleri, sonraki yüzyıllarda Amerika veya Asya'dan Avrupa'ya gelen yiyecekleri içermiş olamaz.",
+  "hyp": "antikroma yemitleri sonraki yüzyularda amerika veya asya'dan avrupa'ya geren yiyecekleri içermış olamaz"
+ },
+ {
+  "id": "1606",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12463909873083005057.wav",
+  "dur": 9.6,
+  "cer": 0.041,
+  "ref": "Portekizliler onu yıktılar ve Casa Branca adıyla yeniden inşa ettiler, ancak 1755'teki bir depremden sonra onu terk ettiler.",
+  "hyp": "portekiziler onu yıktılar ve kasa brank adıyla yeniden inşaettiler ancak 1755'teki bir depremden sonra onu terk ettiler"
+ },
+ {
+  "id": "1528",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11965110121746871066.wav",
+  "dur": 6.2,
+  "cer": 0.014,
+  "ref": "Bazı festivaller küçük çocuklu aileler için özel kamp alanlarına sahiptir.",
+  "hyp": "bazı festivaller küçük çocuklu ailler için özel kamp alanlarına sahiptir"
+ },
+ {
+  "id": "1513",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13507298154984672975.wav",
+  "dur": 11.4,
+  "cer": 0.0,
+  "ref": "Arjantin, dünyanın en iyi polo takımlarından birine ve en iyi oyunculara sahip olmakla meşhurdur.",
+  "hyp": "arjantin dünyanın en iyi polo takımlarından birine ve en iyi oyunculara sahip olmakla meşhurdur"
+ },
+ {
+  "id": "1540",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5628599061431005574.wav",
+  "dur": 15.8,
+  "cer": 0.008,
+  "ref": "Prensip anlamında Tibet Budizmi çok basittir. Kundalini Yoga, meditasyon ve her şeyi kucaklayan bir sevgi patikasından oluşur.",
+  "hyp": "prensip anlamında tibet butizmi çok basittir kundalini yoga meditasyon ve her şeyi kucaklayan bir sevgi patikasından oluşur"
+ },
+ {
+  "id": "1544",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5675146529040538129.wav",
+  "dur": 16.4,
+  "cer": 0.021,
+  "ref": "Uçmayı başaran ilk hayvanlar böceklerdi. Uçma kabiliyetleri, düşmanlardan daha kolay kurtulmalarına, yiyecekleri ve eşlerini daha kolay bir şekilde az çaba harcayarak bulmalarına yardımcı oldu.",
+  "hyp": "uçmayı başaran ilk hayvanlar böceklerdi uçma kabiliyetleri düşmanlardan daha kolay kurtulmalarına yiyecekleri ve eşlerini daha kolay bir şekilde azça baharcıyarak bulmalarına yardımcı oldu"
+ },
+ {
+  "id": "1588",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8261085913111665287.wav",
+  "dur": 11.3,
+  "cer": 0.051,
+  "ref": "Polise göre, fotoğrafçıya çarpan aracın şoförünün cezai kovuşturma ile yüzyüze gelme ihtimali düşük.",
+  "hyp": "polise göre fotoğrafçaya çarpan aracın şöförünün cezayi koğuşturma ile 1üzyüze gelme ihtimali düşük"
+ },
+ {
+  "id": "1600",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17907486656089842138.wav",
+  "dur": 12.0,
+  "cer": 0.063,
+  "ref": "Yerinde etkinlik örnekleri avcılık, balıkçılık, fotoğrafçılık, kuş seyri ile parkları ziyaret ve ekosistem hakkında bilgileri incelemekten oluşur.",
+  "hyp": "yerinde etkinlik örnekleri avcılık balıkçılık fotorafçılık kuç seyriğiyle parkları ziyaret ve eko sistam hakkında biilgileri inciremekten oluşur"
+ },
+ {
+  "id": "1612",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/2331532410701631860.wav",
+  "dur": 9.6,
+  "cer": 0.05,
+  "ref": "Su 100 fit genişlikteki bir kesitten setin üzerine dökülüyor.",
+  "hyp": "sul 1ü0 fit geniştikteki bir kesitten setin üzerine dökülüyor"
+ },
+ {
+  "id": "1574",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/6014905745093888794.wav",
+  "dur": 18.9,
+  "cer": 0.032,
+  "ref": "Kış aldatıcı bir şekilde soğuk olabilir. Sıcaklıklar nadiren donma noktasının altına iner fakat rüzgar ve nem bir araya gelerek termometrenin gösterdiğinden daha soğuk hissetmenize neden olur.",
+  "hyp": "kış allatıcı bir şekilde soğuk olabilir sıcaklıklar nadiren donmanoktasının altına iner fakat rüzgar venen bir araya gelerek termometre'nin gösterdiğinden daha soğuk hissetmenizi neden olur"
+ },
+ {
+  "id": "1649",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12471401264027771707.wav",
+  "dur": 12.2,
+  "cer": 0.035,
+  "ref": "Japonya'da, ilk kiraz çiçeği partileri imparator tarafından düzenleniyor ve yalnızca kendisi ve İmparatorluk Mahkemesi çevresindeki diğer aristokrasi üyeleri katılabiliyordu.",
+  "hyp": "japonya'da ilk kiraz çiçeği partileri imperatör tarafından düzenleniyor ve yannızaca kendisi ve imperatorluk mahkemesi çevresindeki diğer aristokrasi üyeleri katılabiliyordu"
+ },
+ {
+  "id": "1581",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8855229433940994328.wav",
+  "dur": 10.6,
+  "cer": 0.012,
+  "ref": "Amazon, altı mile varan genişliğiyle, aynı zamanda dünya üzerindeki en geniş nehirdir.",
+  "hyp": "amazon altı mile varan genişleğiyle aynı zamanda dünya üzerindeki en geniş nehirdir"
+ },
+ {
+  "id": "1616",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/192782192436554463.wav",
+  "dur": 13.3,
+  "cer": 0.022,
+  "ref": "Bilim, bu devasa karbon ekonomisinin, son iki milyon yıldır insan evrimini destekleyen istikrarlı biyosfer durumunu bozduğunu gösteriyor.",
+  "hyp": "bilim bu devasa karbon ekonomisinin son 2k milyon yıldır insan evrimini destekleyen istikrarlı biyosfer durumunu bozluğunu gösteriyor"
+ },
+ {
+  "id": "1625",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/7646217343903399323.wav",
+  "dur": 12.2,
+  "cer": 0.114,
+  "ref": "Ülkenin dört bir yanından gelen ünlü şarkıcılar, bhajan veya ilahileri Shri Shyam'a sundu.",
+  "hyp": "ülkenin 4örtbir yanından gelen ünlüşarkıcılar bajan veya ilahileri şırişiyama sundu"
+ },
+ {
+  "id": "1552",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/451229916077102086.wav",
+  "dur": 8.7,
+  "cer": 0.059,
+  "ref": "Çizim analizinin sonucu halka açık bir web sitesinde yayınlanacaktır.",
+  "hyp": "çizim analizinin sonucu halkaçık bir wepsitesinde yayınlanacaktır"
+ },
+ {
+  "id": "1632",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4289099610601967960.wav",
+  "dur": 16.4,
+  "cer": 0.067,
+  "ref": "Kadınlar, kültürel farklılıkların taciz olarak addedecekleri şeylerle sonuçlanabileceğini ve takip edilmelerinin, kollarından tutulmalarının vb. alışılmamış olmadığını fark etmelidir.",
+  "hyp": "kadınlar kültürel farklılıkların taciz olarak adtedecekleri şeylerle sonuçlanabileceğini ve takip edilmelerinin kollarından tusulmalarının ve ben zeri alışılmamış olmadığını farketmelidir"
+ },
+ {
+  "id": "1584",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10499604437837953465.wav",
+  "dur": 11.7,
+  "cer": 0.0,
+  "ref": "Bişkek sokaklarında güvenlik güçleri bulunmadığı için, geniş çaplı yağmanın gece boyunca devam ettiği bildirildi.",
+  "hyp": "bişkek sokaklarında güvenlik güçleri bulunmadığı için geniş çaplı yağmanın gece boyunca devam ettiği bildirildi"
+ },
+ {
+  "id": "1586",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/16318692420109807322.wav",
+  "dur": 9.6,
+  "cer": 0.031,
+  "ref": "İlki Slalom yarıştı ve ilkinde yarışı tamamlayamadı. 116 yarışmacının 36'sı aynı kaderi paylaştı.",
+  "hyp": "i̇lki sallom yarıştı ve ilkinde yarışı tamamlayamadı 116 yarışmacının 36sı aynı kaderi paylaştı"
+ },
+ {
+  "id": "1656",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11413644354329466072.wav",
+  "dur": 8.5,
+  "cer": 0.0,
+  "ref": "Polis, cesedin yaklaşık bir gündür orada bulunduğunu söyledi.",
+  "hyp": "polis cesedin yaklaşık bir gündür orada bulunduğunu söyledi"
+ },
+ {
+  "id": "1648",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17266473763822001695.wav",
+  "dur": 7.8,
+  "cer": 0.039,
+  "ref": "Kenan diyarında büyük ormanlar yoktu, bu sebeple odun aşırı derecede pahalıydı.",
+  "hyp": "kenan diyarında büyük ormanlar yoktu bu sebeple odun aşırı derecere parlıydı"
+ },
+ {
+  "id": "1624",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5120407603592982070.wav",
+  "dur": 6.5,
+  "cer": 0.044,
+  "ref": "Bir tatilin ana teması olarak iç sular güzel bir seçenek sayılabilir.",
+  "hyp": "bir taditilin anateması olarak iç sular güzel bir seçenek sayılabilir"
+ },
+ {
+  "id": "1575",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/2269599128919412614.wav",
+  "dur": 16.7,
+  "cer": 0.029,
+  "ref": "İsrail, anlaşmanın imzalanmasının ardından on yıl boyunca vadide askerlerin bulunmasını talep ederken Filistin bu koşulun yalnızca beş yılla sınırlandırılmasını kabul ediyor.",
+  "hyp": "i̇srail anlaşmanın imzalanmasının ardından o0 yıl boyunca vaadede askerlerin bulunmasını talep ederken filistin bu koşulun yalnızca 5e yılla sınırlandırılmasını kabul ediyor"
+ },
+ {
+  "id": "1529",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14239788865586599817.wav",
+  "dur": 12.4,
+  "cer": 0.114,
+  "ref": "Daha önce, Ring'in CEO'su Jamie Siminoff şirketin, garajındaki dükkanından kapı zilinin duyulmadığı zamanlarda başladığını belirtmişti.",
+  "hyp": "daha önce ringin siyosu cymisminof şirketin garajındaki dükyanından kapızilinin duyulmadığı zamanlarda başladığını bilitmişti"
+ },
+ {
+  "id": "1631",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10928752588294478876.wav",
+  "dur": 12.4,
+  "cer": 0.021,
+  "ref": "Yeni Krallıktaki antik Mısırlılar seleflerinin bıraktıkları anıtlara hayret içerisinde bakarlardı ve bu anıtlar o zamanlar bin yıldan daha eskiydi.",
+  "hyp": "yeni kırallıktaki antik mısırlılar seleflerinin bıraktıkları anıtlara hayret içerisinde bakarlardı ve bu anıtlar o zamanlar bi0 yıldan daha iskiydi"
+ },
+ {
+  "id": "1630",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17994644657678110230.wav",
+  "dur": 17.6,
+  "cer": 0.192,
+  "ref": "Meksika'dan Arly Velasquez, erkekler oturuşlu Super-G'yi 15. sırada bitirdi. Yeni Zelandalı Adam Hall ise erkekler ayakta Super-G'yi 9. sırada bitirdi.",
+  "hyp": "meksika'dan arli velaskes erkekler oturuştu süperciğiyi 15inci sırada bitirdi yeni zelanlalı edum hall ise erkekler ayakta süperciğiyi dzüncü sırada bitirdi"
+ },
+ {
+  "id": "1596",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/16606193888855214294.wav",
+  "dur": 11.6,
+  "cer": 0.074,
+  "ref": "Doğa bilimciler ve filozoflar klasik metinlere ve özellikle Latince Kutsal Kitap'a odaklandılar.",
+  "hyp": "doğa bilimçiler ve filozoflar klesikmetinleri ve özellikle datince kutsal kitaba odaklandılar"
+ },
+ {
+  "id": "1543",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/9275952176541795222.wav",
+  "dur": 7.0,
+  "cer": 0.127,
+  "ref": "Hasta, bazı Ebola virüs vakalarının ortaya çıktığı Nijerya'da bulunmuştu.",
+  "hyp": "hasta bazı evolo virüsününün vakalarının ortaya çıktığı nijeriya'da bulunmuştu"
+ },
+ {
+  "id": "1652",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/3948265272697055286.wav",
+  "dur": 5.0,
+  "cer": 0.12,
+  "ref": "Moldova'daki temel inanç Ortodoks Hristiyanlığıdır.",
+  "hyp": "mollova'daki temel inanç ortoduk süoristi yanlığıdır"
+ },
+ {
+  "id": "1564",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5113416322048659179.wav",
+  "dur": 9.1,
+  "cer": 0.136,
+  "ref": "Dr. Moll'a göre hastalardan bazılarına böcek hastanede bulaşmış olabilir ve en azından ikisi hastane sağlık çalışanıdır.",
+  "hyp": "doktor mole gür hastalardan bazı zarına böcek astane de bulaşmış olabilir ve en azından iki sastane sağlık çalışanıdır"
+ },
+ {
+  "id": "1617",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/9975076396978174898.wav",
+  "dur": 16.4,
+  "cer": 0.037,
+  "ref": "Kruger Ulusal Parkı (KNP), Güney Afrika'nın kuzey-doğusunda yer alır ve doğuda Mozambik, kuzeyde Zimbabve sınırı boyunca uzanır ve güney sınırı Timsah Nehri'nden oluşur.",
+  "hyp": "kruger ulusal parkı knp güney afrikanın kuzey doğusunda yaralır ve doğuda mozanbik kuzeyde zimbab ve sınırı boyunca uzanır ve güney sınırı timsah nehrinden oluşur"
+ },
+ {
+  "id": "1651",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8776016013578485975.wav",
+  "dur": 10.4,
+  "cer": 0.031,
+  "ref": "Boş bir yıl planlayanlar için giderek daha popüler olan bir seçenek seyahat etmek ve öğrenmektir.",
+  "hyp": "boş bir yılk planlayanlar için giderek daha populer olan bir seçene seyahat etmek ve öğrenmektir"
+ },
+ {
+  "id": "1518",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14712246864150872922.wav",
+  "dur": 11.2,
+  "cer": 0.08,
+  "ref": "Filipinli eski bir polis, Filipin'in başkenti Manila'da otobüslerini kaçırarak Hong Kong’lu turistleri rehin aldı.",
+  "hyp": "filipinine eski bir polis filipinin başkenti manila'da otobüslerini kaçırarak honkonklu turistleri rehinaldı"
+ },
+ {
+  "id": "1604",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14552409153720569302.wav",
+  "dur": 32.0,
+  "cer": 0.039,
+  "ref": "NSA olarak, 1978 Camp David Sözleşmesi; 1970'lerin sonlarında ABD-Çin ilişkilerinin normalleşmesi; 1979’daki İran rehine krizine yol açan İran Devrimi ve 1979’da Afganistan'ın Sovyetler tarafından işgali gibi dünya meselelerinin diplomatik olarak ele alınmasında Carter'a yardımcı oldu.",
+  "hyp": "nsay olarak 1978 kemp david sözleşmesi 197lerin sonlarında abd çin ilişkilerinin normalleşmesi 1979'daki iran rehine krizine yol açan iran devrimi ve 1979'da afganistanın sovyetler tarafından işgali gibi dünya meselelerinin diplomatik olarak ele alınmasında kartıra yardımcı oldu"
+ },
+ {
+  "id": "1573",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8506089976249605343.wav",
+  "dur": 14.8,
+  "cer": 0.012,
+  "ref": "Telefon araması yapabilmek için uyduyu açıkça görebilmeniz, bunun için de açık havada bulunmanız gerektiğinden uydu telefonu çoğu zaman cep telefonunun yerine geçmez.",
+  "hyp": "telefon araması yapabilmek için uyduğu açıkça görebilmeniz bunun içinde açık havada bulunmanız gerektiğinden uydu telefonu çoğu zaman cep telefonunun yerine geçmez"
+ },
+ {
+  "id": "1556",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13314882675564406749.wav",
+  "dur": 15.7,
+  "cer": 0.132,
+  "ref": "1000. pulu, 2000 yılında David Klöcker Ehrenstrahl tarafından Guinness Rekorlar Kitabı'na girmiş olan muazzam \"İsveç Krallarının Büyük İşleri\" idi.",
+  "hyp": "bininci pulu 2000 yılında david klöker ehrançtan tarafından gines rekorlar kitabına girmiş olan muazzam isveç krallarının büyük işleri idi"
+ },
+ {
+  "id": "1615",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/2653589558588073095.wav",
+  "dur": 11.3,
+  "cer": 0.031,
+  "ref": "Binlerce yıl önce, Aristarkus adlı bir adam Güneş Sistemi'nin Güneş'in etrafında döndüğünü söyledi.",
+  "hyp": "binlerce yıl önce aris tarkus adlı bir adam güneş sisteminin güneşin etrafında döndüğünü söyledi"
+ },
+ {
+  "id": "1647",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10347923851859109891.wav",
+  "dur": 14.3,
+  "cer": 0.016,
+  "ref": "İleri sürülen fikirler, başka yerlerdeki daha ayrıntılı bilgilere nazaran çoğunlukla üstünkörü, genel ve fazla basitleştirilmiştir.",
+  "hyp": "ileri sürülen fikirler başka yerlerdeki daha ayrıntılı bilgilere nazaran çoğunlukla üstün körü genel ve fazla basitleştirilmiştir"
+ },
+ {
+  "id": "1629",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4598680140928387244.wav",
+  "dur": 14.5,
+  "cer": 0.026,
+  "ref": "Bazı raporlarda resmi ölü sayısını sekiz olduğu belirtiliyor, resmi raporlar da 30 kişinin yaralandığını doğruluyor fakat kesin sayılar henüz bilinmiyor.",
+  "hyp": "bazı raporlarda resmi ölü sayısını sekiz olduğu belirtiliyor resmi raporlarda 3tuz kişinin yaralandığını doğruluyor fakat kesin sayılar henüz bilinmiyor"
+ },
+ {
+  "id": "1561",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8230875548970829280.wav",
+  "dur": 6.3,
+  "cer": 0.095,
+  "ref": "Çoğu semte rahat ve sağlam olan küçük Japon minibüsleriyle ulaşım sağlanır.",
+  "hyp": "çoğu semte rahat ve sağlam olan küçük yapom münmüsteriyle ulaşım sağlınır"
+ },
+ {
+  "id": "1515",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/9157054047139230481.wav",
+  "dur": 9.5,
+  "cer": 0.058,
+  "ref": "Bu Martelly'nin dört yıl içindeki beşinci Geçici Seçim Konseyi olacak.",
+  "hyp": "bu martellinin dört yıl içindeki 5eşinci geçici seçin konseyi olacak"
+ },
+ {
+  "id": "1517",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/7602548910737843669.wav",
+  "dur": 13.3,
+  "cer": 0.032,
+  "ref": "Yapay zeka araştırmaları, akıllı davranış gerektiren görevlerin otomatikleştirilmesini sağlayacak robotlar geliştirmeyi içerir.",
+  "hyp": "yapayzeki araştırmaları akıllı davranış gerektiren görevlerin otomatikleştirilmesini sağlayacak robortlar geliştirmeyi içirir"
+ },
+ {
+  "id": "1512",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13779387979807046526.wav",
+  "dur": 16.6,
+  "cer": 0.049,
+  "ref": "Bu yeni ortam farklı kaynaklara ve farklı rakiplere sahiptir, yani yeni nüfus, daha önce ihtiyaç duymuş olduklarından daha güçlü bir rakip olmak için farklı özelliklere ya da adaptasyonlara ihtiyaç duyacaktır.",
+  "hyp": "bu yeni ortam farklı kaynaklara ve farkla rakiplere sahiptir yani yeni nüfuz daha önce ihtiyaç düyumuş olduklarınan daha güyüçlü bir rakip olmak için fartlı özeliklere ya da adaptasyonlara ihtiyaç düuyacaktır"
+ },
+ {
+  "id": "1585",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11648020162346735963.wav",
+  "dur": 13.1,
+  "cer": 0.008,
+  "ref": "Zamanla, yeni nüfus yeni çevresine uyum sağlamaya başladıkça diğer popülasyondan gittikçe daha farklı görünmeye başlarlar.",
+  "hyp": "zamanla yeni nüfus yeni çevresine uyum sağlamaya başladıkça diğel popülasyondan gittikçe daha farklı görünmeye başlarlar"
+ },
+ {
+  "id": "1527",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5007172770159537700.wav",
+  "dur": 25.0,
+  "cer": 0.156,
+  "ref": "Polonya erkekler görme engelli kayakçısı Maciej Krezel ve rehber Anna Ogarzynska, Super-G.'yi on üçüncü olarak bitirdi. Güney Koreli Jong Seork Park, Super-G. erkekler oturan kategorisini yirmi dördüncü olarak bitirdi.",
+  "hyp": "polonya erkekler görme engelli kayakçısı masiheş krezel ve repper anna ogarzinska süperjiyi 13çüncü olarak bitirdi güney koreli jong seurg park süperjiyi erkekler oturan kategorisini 24cü olarak bitirdi"
+ },
+ {
+  "id": "1539",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4287365083695798283.wav",
+  "dur": 12.7,
+  "cer": 0.026,
+  "ref": "Bir alt kültürün mensupları, o kültürün bir parçası olduklarını çoğu zaman moda, tavır ve argoyu içeren farklı ve sembolik bir tarz kullanarak ifade eder.",
+  "hyp": "bir alt kültürün mesuplara o kültürün bir parçısı olduklarını çoğu  zaman moda tavır ve argoyu içeren farklı ve sembolik bir tars kullanarak ifade eder"
+ },
+ {
+  "id": "1621",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14361341711888984020.wav",
+  "dur": 9.0,
+  "cer": 0.028,
+  "ref": "Başlangıçta giyim doğudaki Bizans kültüründen büyük ölçüde etkilenmiştir.",
+  "hyp": "başlangıçıta geyim doğudaki bizans kültüründen büyük ölçüde etkilenmiştir"
+ },
+ {
+  "id": "1643",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/6042869823054403508.wav",
+  "dur": 16.0,
+  "cer": 0.096,
+  "ref": "Park, 19.500 km²'lik alanı içerir ve her biri farklı bir vahşi hayata destek veren farklı 14 ekobölgeye ayrılmıştır.",
+  "hyp": "park 19500 klmet karelik alını içirir ve her biri farklı bir vahşi hayata destek veren farklı 14 ekobölgiye ayrılmıştır"
+ },
+ {
+  "id": "1560",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17869408681478961537.wav",
+  "dur": 10.4,
+  "cer": 0.042,
+  "ref": "Akıntıdan çıkar çıkmaz geri yüzme zorluğunun normalden bir farkı yoktur.",
+  "hyp": "akıntıdan çıkar çıkmaz geri yüzme zorunuluğunun normalden bir farkı yoktur"
+ },
+ {
+  "id": "1634",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1000847601644945595.wav",
+  "dur": 15.2,
+  "cer": 0.15,
+  "ref": "Japonlar en büyüğü Honshu olan 7.000 civarında adaya sahiptir ki bu durum, Japonya'yı yeryüzünün en büyük 7. adası yapıyor!",
+  "hyp": "japonlar en büyü honşo olan 7edb00 cıvarında adaya sahiptir kibudurum japonya'yı yer yüzünün en büyük yedinci adası yapıyor"
+ },
+ {
+  "id": "1579",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/3490740693686601995.wav",
+  "dur": 10.4,
+  "cer": 0.059,
+  "ref": "Bu noktada Irak'ta yapılacak eylemlerin; mezhep savaşlarını, artan şiddeti veya kaosa kayışı durduracağını kimsenin garanti edemeyeceği konusunda uyarıyor.",
+  "hyp": "bu noktada ığırakta yapılacak eylemlerin mesep savaşlarını artan şiddeti veya kausa kayışır duğduracağını kimsenin garanti edemeyeceği konusunda uyalıyor"
+ },
+ {
+  "id": "1607",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/3138026241694144706.wav",
+  "dur": 9.0,
+  "cer": 0.016,
+  "ref": "İlgi çekici köyde dolaşmak için yarım saatinizi ayırmaya değer.",
+  "hyp": "i̇lgi çekici köyde dolaşmak için yarım saatinize ayırmaya değer"
+ },
+ {
+  "id": "1655",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12462520445885814823.wav",
+  "dur": 12.6,
+  "cer": 0.071,
+  "ref": "Mesela, “öğrenme” ve “sosyalleşme”, İnternet kullanımı için önemli motivasyonlar olarak tavsiye edilmektedir (James ve diğerleri, 1995).",
+  "hyp": "mesela öğrenme ve sosyalleşme internet kullanım için örenmi motivasyonlar olarak tavsi edirmektedir cames've diğerleri 1995"
+ },
+ {
+  "id": "1535",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10637049050124429047.wav",
+  "dur": 18.1,
+  "cer": 0.014,
+  "ref": "Hava trafik kontrolcülerinin uçakları daha hassas bir şekilde saptamasına ve pilotlara daha doğru bilgi vermesine olanak tanımak için eski yer radarı tabanlı teknolojinin aksine uydu tabanlı teknolojiyi kullanır.",
+  "hyp": "hava trafik kontrolcülerinin uçakları daha hassas bir şekilde saptamasına ve pilotlara daha doğru bilgi vermesine olanak tanımak için eski yerradarı tabanını teknolojinin aksine uydu tabanlı teknolojiyi kullanır"
+ },
+ {
+  "id": "1637",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14554973614348971506.wav",
+  "dur": 24.4,
+  "cer": 0.139,
+  "ref": "Dehşete düşen Kral On Altıncı Louis, iki küçük çocuğu, (11 yaşındaki Marie Therese ve dört yaşındaki Louis-Charles) Kraliçe Marie Antoinette ve Kralın kız kardeşi Madam Elizabeth kalabalık bir kadın grubu tarafından 6 Ekim 1789 tarihinde zorla Versay'dan Paris'e sürüldü.",
+  "hyp": "dehşete düşen kral 16cı luyi iki küçük çocuğu 11 yaşındaki mariye teres ve 4 yaşındaki lui çharrls kraliçe marie antuenet ve kral'ın kız kardeşi madam elizabet kalabalık bir kadın grubu tarafından 621789 tarihinde zorla versaydan parise sürüldü"
+ },
+ {
+  "id": "1601",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/11680815142281915887.wav",
+  "dur": 10.3,
+  "cer": 0.019,
+  "ref": "Bilim insanları, ocelotların, diğer hayvanları yerin neresinde olduklarını sezerek, koklayarak yemek (avlamak) için takip ettiklerini ve bulduklarını düşünüyor.",
+  "hyp": "bilim insanları oselotların diğer hayvanları yerinleresinde olduklarını sezerek koklayarak yemek avlamak için takip ettiklerini ve bulduklarını düşünüyor"
+ },
+ {
+  "id": "1559",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13617086170080630587.wav",
+  "dur": 9.4,
+  "cer": 0.061,
+  "ref": "İtalyanca diğer dillere nazaran daha kolaydır çünkü İtalyanca'da çoğu kelime aynen yazıldığı gibi telaffuz edilir.",
+  "hyp": "i̇talyanca diğer dillere nazaran daha kolaydır çünkü i̇talyanınca da çoğu kelime aynan yazıldığı gibi terafıs edilir"
+ },
+ {
+  "id": "1563",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/12472331559438575337.wav",
+  "dur": 11.8,
+  "cer": 0.007,
+  "ref": "Bunun genç bir dinozorun kuyruğu olmasına rağmen araştırmacılar, örneğin bir civciv tüyünü değil yetişkin tüylerini işaret ettiğini iddia etti.",
+  "hyp": "bunun genç bir dinozorun kuyruğu olmasına rağmen araştırmacılar örneğin bir civjiv tüyünü değil yetişkin tüylerini işaret ettiğini iddia etti"
+ },
+ {
+  "id": "1555",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/1675227057965267819.wav",
+  "dur": 13.1,
+  "cer": 0.01,
+  "ref": "Kilise bahçesinde birkaç mezarın üzerinde mermerden yapılmış ilginç güvercinlerin heykelleri var.",
+  "hyp": "kirise bahçesinde birkaç mezarın üzerinde mermerden yapılmış ilginç güvercinlerin heykelleri var"
+ },
+ {
+  "id": "1583",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4291337565285354907.wav",
+  "dur": 11.5,
+  "cer": 0.077,
+  "ref": "Doğum kontrol hapının tıbbi bir gereklilik olarak görülmesi için hem kadın hem de erkekler tarafından kendisine iletilen çok sayıda olumlu yorum ve destek nedeniyle bu çıkarıma ulaştı.",
+  "hyp": "doğum kontrol apının tıpi bir gerektilik olarak gölülmesi için hem kadın hem erkekler tarafından kendisine illetilen çok sayıda olunluyorum ve destek nedeniyle bu çıkarımı olıştı"
+ },
+ {
+  "id": "1511",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10631721429274599277.wav",
+  "dur": 12.4,
+  "cer": 0.042,
+  "ref": "Kısa süre sonra, çevik kuvvet ekipmanları giyen görevliler avluya girdi ve hükümlüleri biber gazıyla etkisiz hale getirdi.",
+  "hyp": "kısa süre sonra çevik kuvvet ekipmanları giyen görevililer avlaya girdi ve hükümlüleri bir bergazıyla etkisiz hale getirdi"
+ },
+ {
+  "id": "1618",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8563504800459128015.wav",
+  "dur": 15.4,
+  "cer": 0.071,
+  "ref": "Kuzey kısım, ya da Sentinel Dağları, Antarktika'nın en yüksek dağları olan Vinson Masifi'ni içerir ve zirve noktası 4892 m'lik Vinson Dağı'dır.",
+  "hyp": "kuzey kısım ya da sentinel dağları antaktika'nın en yüksek dağları olan vinson masifini içerir ve zirve noktası 408920 metrelik vin son dağıdır"
+ },
+ {
+  "id": "1633",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/959414671528739720.wav",
+  "dur": 15.0,
+  "cer": 0.039,
+  "ref": "Bu dinamik karşılıklı ulaşım seferlerinde herkes, bir şekilde, özel arabalara dayalı bir ulaşım sistemine bağlı ve bunu destekliyor.",
+  "hyp": "bu dünemlik karşılıklı ulaşım seferlerinde herkes bir şekilde özel arabalara dayalı bir ulaşım sistemine bağlı ve bunu testektiyor"
+ },
+ {
+  "id": "1550",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/3353321482882070538.wav",
+  "dur": 15.7,
+  "cer": 0.018,
+  "ref": "Kayak \"kayak müptelaları\" olarak da adlandırılan ve belirli bir yerde kayak yapmak için bütün tatillerini planlayan pek çok meraklısı için önemli bir seyahat aktivitesidir.",
+  "hyp": "kayak kayak müptalaları olarak daatlandırılan ve belirli bir yerde kayak yapmak için bütün tatillerini planlayan pek çok meraklısı için önemli bir seyahat aktivitesidir"
+ },
+ {
+  "id": "1557",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/15835460799962480146.wav",
+  "dur": 11.3,
+  "cer": 0.099,
+  "ref": "1. Dünya Savaşı’nda savaşın getirdiği dehşet ve zulme tanık olan milletler gelecekte tekrar böyle bir durumla karşı karşıya kalmaktan kaçınmak istediler.",
+  "hyp": "birinci dünyaa savaşınıda savaşın getirdiği deşet ve zurmie tanık olan milletler gelecekte tekar böyle bir durumla karşı karşıyakalmaktan kaçınmak istediler"
+ },
+ {
+  "id": "1597",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/15832376471551201737.wav",
+  "dur": 11.9,
+  "cer": 0.079,
+  "ref": "FIC West mağazasının karşısındaki Stanley'de bulunan adaların tek bankasında döviz bozdura bilirsiniz.",
+  "hyp": "fic vest mağzasının karşısındaki stanni'de bulunan adaların tek bankasında dövüz bozlurabilirsiniz"
+ },
+ {
+  "id": "1619",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8697629796275106257.wav",
+  "dur": 12.5,
+  "cer": 0.0,
+  "ref": "Ancak işaretlerin çoğu, yasalara göre ilk resmi dil olarak belirlendiği için yalnızca Katalancadır.",
+  "hyp": "ancak işaretlerin çoğu yasalara göre ilk resmi dil olarak belirlendiği için yalnızca katalancadır"
+ },
+ {
+  "id": "1650",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/7443790473520214506.wav",
+  "dur": 13.1,
+  "cer": 0.068,
+  "ref": "Tuzlu su timsahları okyanusta sürekli yaşamazlar, birincil yaşam alanları Rockhampton'ın kuzeyindeki ırmak haliçleridir.",
+  "hyp": "tuzlusu timsahları okyanusta sürekli yaşamazlar birincil yaşalmalanları ruk hamtn'ın kuzeyindeki ırmak haliçleridir"
+ },
+ {
+  "id": "1613",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/10037968623013233667.wav",
+  "dur": 15.3,
+  "cer": 0.025,
+  "ref": "Bazı eyerler, özellikle de İngiliz eyerleri, düşmekte olan bir binicinin geriye çekmesiyle üzengi derisinin eyerden düşmesine izin veren güvenlik çubukları bulunur.",
+  "hyp": "bazı eğerler özellikle de ingiliz eğerleri düşmekte olan bir binicinin geriye çekmesiyle üzengi derisinin eğerden düşmesine izin veren güvenlik çubukları bulunur"
+ },
+ {
+  "id": "1587",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14659721761627604160.wav",
+  "dur": 5.3,
+  "cer": 0.094,
+  "ref": "Bu sezon hastalığın ilk vakaları Temmuz'un sonlarında bildirildi.",
+  "hyp": "bu sizon hastalının iyi fakaları temmuzun sonlarında bildirildi"
+ },
+ {
+  "id": "1547",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/6705349600925373540.wav",
+  "dur": 16.8,
+  "cer": 0.118,
+  "ref": "NHK ayrıca Niigata ilinde bulunan Kashiwazaki Kariwa nükleer santralinin olağan surette faaliyette bulunduğunu belirtti.",
+  "hyp": "enn hhk ayrıca nigata ilinde bulundan kaşivazaki kariva nükler santridin olağan surette faaliyette bulunduğunu belirtti"
+ },
+ {
+  "id": "1558",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/14197892879505351272.wav",
+  "dur": 12.2,
+  "cer": 0.061,
+  "ref": "Bir organizasyonun yenilikçi olabilmesi için liderliğin, bilgi paylaşımı ve şirket içi eğitimleri teşvik etmenin yanı sıra bir inovasyon kültürü de yaratması gerekir.",
+  "hyp": "bir organizasyonunun yenilikçi olabilmesi için liderliğin bilgi paydaşım ve şirketiçi eğitimleri teşvik etmenin yanısırap bir innovasyon kültürde yaratması gerekir"
+ },
+ {
+  "id": "1545",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/4105782945959297306.wav",
+  "dur": 5.7,
+  "cer": 0.055,
+  "ref": "Köri, içerdiği sıvı miktarına göre \"kuru\" veya \"ıslak\" olarak adlandırılabilir.",
+  "hyp": "köri içerdeği sıvu miktarına göre kuru veya ıstak olarak allandırılabilir"
+ },
+ {
+  "id": "1614",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/912553367335493934.wav",
+  "dur": 18.2,
+  "cer": 0.018,
+  "ref": "Gece görüşü ile birlikte geceleri çok iyi görebilirler ve aynı zamanda son derece gizlice hareket edebilirler. Oselolar, avlarının ortamı ile bütünleşerek onları yakalarlar.",
+  "hyp": "gece görüşüyle birlikte geceleri çok iyi görebilirler ve aynı zamanda son derece gizlice hareket edebilirler oselolar avlarının ortamı ile bütündeşerek onları yakalarlar"
+ },
+ {
+  "id": "1524",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/2463683825531334494.wav",
+  "dur": 17.9,
+  "cer": 0.005,
+  "ref": "Metrik sistemin kullanılması, mutlakiyetçilikten cumhuriyetçiliğe geçiş, milliyetçilik ve ülkenin tek bir hükümdara değil halka ait olduğu inancı gibi pek çok sosyal ve politik etki var.",
+  "hyp": "metrik sistemin kullanılması mutlakiyetçilikten cumhurietçiliğe geçiş milliyetçilik ve ülkenin tek bir hükümdara değil halka ait olduğu inancı gibi pek çok sosyal ve politik etki var"
+ },
+ {
+  "id": "1541",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5953432927204098883.wav",
+  "dur": 14.3,
+  "cer": 0.03,
+  "ref": "Kurye şirketlerine eşyaları kısa zamanda ulaştırmaları için büyük ödemeler yapılır. Genellikle ticari dökümanların, malların, ya da acil bir onarım için yedek parçaların ulaştırılmasında zaman çok önemlidir.",
+  "hyp": "kurya şirketlerine eşyaları kısı zamanda ulaştırmaları için büyük ödemeler yapılır genellik bi ticari dokümanların malların ya da acil bir onarım için yedek parçaların ulaştırılmasında zaman çok önemlidir"
+ },
+ {
+  "id": "1553",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17637209617864976223.wav",
+  "dur": 11.0,
+  "cer": 0.044,
+  "ref": "Noel, Hristiyanlığın en mühim bayramlarından biridir ve İsa'nın doğum günü olarak kutlanır.",
+  "hyp": "noel hıristanlığın en mühim bayramlarından biridir ve i̇sa'nın doğum gün olarak kutlanır"
+ },
+ {
+  "id": "1638",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/17271749883271036405.wav",
+  "dur": 9.4,
+  "cer": 0.009,
+  "ref": "Safariler belki de Afrika'daki en büyük turizm çekiciliğidir ve birçok ziyaretçi için en öne çıkan noktadır.",
+  "hyp": "safariler belki de afrika'daki en büyük turizm çekiciliğidir ve birçok ziyaretçiğ için en öne çıkan noktadır"
+ },
+ {
+  "id": "1572",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/954190376442180728.wav",
+  "dur": 6.0,
+  "cer": 0.139,
+  "ref": "Hükumet binalarının çevresinde üç bomba daha iki saat içerisinde patladı.",
+  "hyp": "hükümet pinalarının çevresinde 3ç bömmadağa iki saatiçarısında patladı"
+ },
+ {
+  "id": "1571",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/15100675369963310688.wav",
+  "dur": 13.6,
+  "cer": 0.052,
+  "ref": "Araplar aynı zamanda bu topraklara İslam'ı getirdi ve Komorolarda ve Mayotte'ta çok yaygınlaştı.",
+  "hyp": "araplar aynı zamanda bu topraklara islamı getirdi ve komorolarda ve mayot'da çok yaygınlaştı"
+ },
+ {
+  "id": "1567",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/5628900579591765883.wav",
+  "dur": 12.9,
+  "cer": 0.034,
+  "ref": "Yılın en büyük turnuvası Aralık ayında Las Cañitas'taki polo sahalarında gerçekleştirilir.",
+  "hyp": "yılın en büyük turnuvası aralık ayında laskanitas'taki polo sahalarında gerçekleştirilir"
+ },
+ {
+  "id": "1659",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/8306690341281303465.wav",
+  "dur": 5.6,
+  "cer": 0.051,
+  "ref": "Bilim insanları, çarpışmanın çok büyük bir patlamaya neden olduğunu söylüyorlar.",
+  "hyp": "bilim insanları çapışmanın çok büyük bir patlamayı neden olduğunu sölülüyorlar"
+ },
+ {
+  "id": "1599",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13755768429520087113.wav",
+  "dur": 6.2,
+  "cer": 0.06,
+  "ref": "Orijinal popülasyon hiç değişmedi. Hala öncekiyle aynı adaptasyonlara ihtiyaçları var.",
+  "hyp": "original popülasyon işteğişmedi hala öncekiyle aynı adaptasyonlara ihtiyaçları var"
+ },
+ {
+  "id": "1551",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/13294428743041168873.wav",
+  "dur": 10.0,
+  "cer": 0.021,
+  "ref": "Hala kazanın ne kadar büyük olduğunu ve Dünyanın nasıl etkileneceğini tespit etmeye çalışıyorlar.",
+  "hyp": "hala kazanın ne kadar büyük olduğunu ve dünyanın nasıl etkileneceğini tresbit etmeye çalışıyorlar"
+ },
+ {
+  "id": "1554",
+  "file": "/home/fabien/dev/repos/transcriber-clips/src_audio/fleurs/tr_tr/dev/16464682280030646826.wav",
+  "dur": 10.6,
+  "cer": 0.042,
+  "ref": "WiFi ile çalışan bir kapı zili yaptığını söyledi.",
+  "hyp": "wi-fi ile çalışan bir kapı zili yaptırını söyledi"
+ }
+]
