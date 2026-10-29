@@ -285,9 +285,15 @@ def free_band_top(frame, x0, x1, bh, want=330):
     """Top of the band nearest `want` that covers the least dark ink (text, teal buttons) in the result
     frame, so the pill never hides the transcript. The Arabic run scrolls the result card up and the
     fixed y=330 pill hid its first line (2026-10-24). Kept above the bottom ~20% that TikTok covers."""
-    g = np.asarray(Image.open(frame).convert("L").resize((W, H)), dtype=np.int16)[:, int(max(0, x0)):int(min(W, x1))]
-    ink = np.concatenate([[0], np.cumsum((g < 95).sum(axis=1))])
-    tops = list(range(130, int(H * 0.78) - bh, 5))
+    rgb = np.asarray(Image.open(frame).convert("RGB").resize((W, H)), dtype=np.int16)[:, int(max(0, x0)):int(min(W, x1))]
+    g = rgb.mean(axis=2)
+    sat = rgb.max(axis=2) - rgb.min(axis=2)
+    # Dark text, and coloured buttons too: a two-line pill over the red Record button left its red ends
+    # sticking out on both sides (Turkish clip, 2026-10-29).
+    ink = np.concatenate([[0], np.cumsum(((g < 95) | (sat > 90)).sum(axis=1))])
+    # Top part only (header, Open file / Record area): the transcript is always lower down, and a search over
+    # the whole screen put a two-line pill on the transcript's blank bottom and its link (2026-10-29).
+    tops = list(range(130, 460 - min(bh, 200) + 200, 5))
     cost = [ink[t + bh + 12] - ink[t - 12] for t in tops]
     low = min(cost)
     return min((t for t, c in zip(tops, cost) if c <= low + 50), key=lambda t: abs(t - want))
@@ -454,8 +460,10 @@ def main():
     orders = {
         "2026-11": ["en_wind_a", "es_flamencos_a", "fr_verne", "en_wind_b", "pt_azevedo", "es_flamencos_b", "en_wind_c",
                     "ar_aurora", "ar_italian", "ar_tourism", "ar_travel", "ar_transport"],
+        # tr_spanish and hi_weather dropped (2026-10-29): not exact on the phone (Turkish dotted-I glitch, fixed
+        # in 2.6.56; two Hindi vowel signs off). Numbers are positions in this list, so clips were re-rendered.
         "2026-12": ["tr_polo", "hi_pencil", "id_satellite", "tr_science", "hi_controller", "id_ai", "tr_catalan",
-                    "hi_birds", "id_egypt", "tr_spanish", "hi_weather", "id_swim", "tr_taxes", "hi_goats", "id_wheels"],
+                    "hi_birds", "id_egypt", "id_swim", "tr_taxes", "hi_goats", "id_wheels"],
     }
     order = orders[a.month]
     tmp = HERE / ".tmp"; tmp.mkdir(exist_ok=True)

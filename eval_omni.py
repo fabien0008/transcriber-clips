@@ -9,7 +9,8 @@ def norm(t):
     t = unicodedata.normalize("NFKC", t).lower()
     t = re.sub(r"[ً-ْـ]", "", t); t = re.sub(r"[إأآ]", "ا", t).replace("ى", "ي").replace("ة", "ه")
     t = t.replace("ı", "i").replace("İ", "i")
-    t = re.sub(r"[^\w\s]", " ", t); return re.sub(r"\s+", " ", t).strip()
+    # Keep Devanagari vowel signs: \w does not match them, and stripping them hid real Hindi errors (2026-10-29).
+    t = re.sub(r"[^\w\s\u0900-\u0963\u0966-\u097F]", " ", t); return re.sub(r"\s+", " ", t).strip()
 def cer(ref, hyp):
     r, h = norm(ref), norm(hyp); d = list(range(len(h)+1))
     for i, rc in enumerate(r, 1):

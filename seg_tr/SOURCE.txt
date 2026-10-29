@@ -6,5 +6,4 @@ Chosen because the app's accuracy pack (Omnilingual 300M int8) transcribes them 
 tr_polo	FLEURS tr_tr id 1513	tr_tr/dev/13507298154984672975.wav
 tr_science	FLEURS tr_tr id 1565	tr_tr/dev/12346510672201321739.wav
 tr_catalan	FLEURS tr_tr id 1619	tr_tr/dev/8697629796275106257.wav
-tr_spanish	FLEURS tr_tr id 1636	tr_tr/dev/2518371982087739212.wav
 tr_taxes	FLEURS tr_tr id 1570	tr_tr/dev/4042207327218455244.wav

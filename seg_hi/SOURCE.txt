@@ -6,5 +6,4 @@ Chosen because the app's accuracy pack (Omnilingual 300M int8) transcribes them 
 hi_pencil	FLEURS hi_in id 1880	hi_in/test/16936969705720857872.wav
 hi_controller	FLEURS hi_in id 2002	hi_in/test/2209942949403736703.wav
 hi_birds	FLEURS hi_in id 1998	hi_in/test/13766001237015160256.wav
-hi_weather	FLEURS hi_in id 1971	hi_in/test/9632791299638996282.wav
 hi_goats	FLEURS hi_in id 1701	hi_in/test/5040068070207954482.wav
